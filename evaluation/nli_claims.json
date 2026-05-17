@@ -1,0 +1,88 @@
+{
+  "claims": [
+    {
+      "id": "cover_home_all_night",
+      "claim_type": "cover_story",
+      "text": "I left the investor reception around 8:30 PM, went straight home, and stayed home for the rest of the night.",
+      "evidence_terms": ["8:30", "home", "apartment", "straight home", "rest of the night", "all night", "left the reception", "left investor reception"]
+    },
+    {
+      "id": "truth_returned_918",
+      "claim_type": "ground_truth",
+      "text": "I returned to the office at about 9:18 PM after Elena called me.",
+      "evidence_terms": ["9:18", "returned", "return", "back to the office", "went back", "badge", "office", "straight home", "apartment", "all night", "rest of the night", "didn't go back", "did not go back"]
+    },
+    {
+      "id": "truth_last_seen_947",
+      "claim_type": "ground_truth",
+      "text": "I left Elena's office around 9:47 PM while Elena was still alive.",
+      "evidence_terms": ["9:47", "last saw", "last seen", "left Elena", "Elena's office", "alive", "death", "died", "8:30", "9:18"]
+    },
+    {
+      "id": "truth_call_missing_data",
+      "claim_type": "ground_truth",
+      "text": "The 9:12 PM call was about missing trial data, the audit, or Elena confronting me.",
+      "evidence_terms": ["9:12", "call", "called", "phone", "missing data", "trial data", "audit", "confront", "scheduling", "routine"]
+    },
+    {
+      "id": "cover_call_scheduling",
+      "claim_type": "cover_story",
+      "text": "The 9:12 PM call was only a routine scheduling call about the next day.",
+      "evidence_terms": ["9:12", "call", "called", "phone", "missing data", "trial data", "audit", "confront", "scheduling", "routine"]
+    },
+    {
+      "id": "truth_badge_marcus",
+      "claim_type": "ground_truth",
+      "text": "My badge was used at 9:18 PM because I returned to the office.",
+      "evidence_terms": ["badge", "9:18", "entry", "swipe", "card", "office", "system error", "glitch", "someone else"]
+    },
+    {
+      "id": "cover_badge_error",
+      "claim_type": "cover_story",
+      "text": "The 9:18 PM badge entry was a system error, forgotten swipe, or someone else using my badge.",
+      "evidence_terms": ["badge", "9:18", "entry", "swipe", "card", "office", "system error", "glitch", "someone else"]
+    },
+    {
+      "id": "truth_took_usb",
+      "claim_type": "ground_truth",
+      "text": "I took the USB drive from the conference room.",
+      "evidence_terms": ["usb", "drive", "conference room", "take", "took", "taken", "stolen"]
+    },
+    {
+      "id": "truth_usb_missing_data",
+      "claim_type": "ground_truth",
+      "text": "The USB drive contained sensitive information related to the missing trial data.",
+      "evidence_terms": ["usb", "drive", "missing data", "trial data", "research data", "sensitive"]
+    },
+    {
+      "id": "truth_not_killer",
+      "claim_type": "ground_truth",
+      "text": "I did not kill Elena Park.",
+      "evidence_terms": ["kill", "killed", "killer", "murder", "hurt", "harm", "death", "died", "stab", "attack"]
+    },
+    {
+      "id": "truth_argued_missing_data",
+      "claim_type": "ground_truth",
+      "text": "Elena and I argued about missing trial data and a possible audit.",
+      "evidence_terms": ["argue", "argued", "argument", "fight", "heated", "disagreement", "missing data", "trial data", "audit", "confront"]
+    },
+    {
+      "id": "unsupported_sabotage",
+      "claim_type": "unsupported",
+      "text": "I sabotaged, changed, or falsified company data.",
+      "evidence_terms": ["sabotage", "sabotaged", "falsified", "falsify", "changed", "altered", "tamper", "cover my tracks", "company data"]
+    },
+    {
+      "id": "unsupported_sister_call",
+      "claim_type": "unsupported",
+      "text": "I had a phone call with my sister around 9:12 PM.",
+      "evidence_terms": ["sister", "family"]
+    },
+    {
+      "id": "unsupported_has_usb_now",
+      "claim_type": "unsupported",
+      "text": "I still have the USB drive or copied its contents to my own device.",
+      "evidence_terms": ["usb", "drive", "still have", "copied", "copy", "own device", "possession"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Python cache/build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+*.env
+.env*
+
+# Local editor/OS noise
+.DS_Store
+Thumbs.db
+
+# Large local model/cache folders, if created inside the project later
+.ollama/
+ollama-models/
+hf-cache/
+node_modules/
+
+# Temporary scratch outputs
+tmp/
+temp/
+*.tmp

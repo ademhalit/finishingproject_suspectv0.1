@@ -1,0 +1,20 @@
+{
+  "turn_count": 12,
+  "claim_pair_count": 168,
+  "nli_label_counts": {
+    "ENTAILMENT": 6,
+    "NEUTRAL": 157,
+    "CONTRADICTION": 5
+  },
+  "turn_signal_counts": {
+    "COVER_STORY_SUPPORTED": 2,
+    "NO_STRONG_SIGNAL": 5,
+    "UNSUPPORTED_CLAIM_ENTAILED": 3,
+    "GROUND_TRUTH_CONTRADICTED": 2
+  },
+  "human_label_counts": {
+    "STRATEGIC_LIE": 8,
+    "UNSUPPORTED_FACT": 2,
+    "UNINTENDED_INCONSISTENCY": 2
+  }
+}

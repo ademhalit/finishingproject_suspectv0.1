@@ -1,0 +1,71 @@
+﻿run_id,turn_id,question_topic,question_pressure_level,question_evidence_count,answer_word_count,answer_key_facts,selected_question_source,user_question
+2026-05-16T22-08-16,1,role,low,0,14,,custom,State your full name and your role at the company.
+2026-05-16T22-08-16,2,alibi,low,0,45,mentions_830 | mentions_home | mentions_usb,custom,Give me your exact alibi for the night Elena died.
+2026-05-16T22-08-16,3,other,low,0,31,mentions_830,custom,What time did you leave the investor reception?
+2026-05-16T22-08-16,4,other,low,0,30,mentions_home,custom,Where did you go after leaving the reception?
+2026-05-16T22-08-16,5,alibi,low,0,61,mentions_home,custom,"Who, if anyone, can confirm where you were between 9:00 PM and 10:30 PM?"
+2026-05-16T22-08-16,6,timeline,low,0,34,mentions_830,custom,When did you last see Elena Park alive?
+2026-05-16T22-08-16,7,call,medium,1,46,,custom,Why did Elena call you at 9:12 PM?
+2026-05-16T22-08-16,8,badge,medium,1,57,mentions_badge,custom,How do you explain your badge being used at 9:18 PM?
+2026-05-16T22-08-16,9,missing_data,medium,1,65,mentions_missing_data,custom,What do you know about the missing trial data?
+2026-05-16T22-08-16,10,usb,medium,1,58,mentions_usb,custom,What do you know about the missing USB drive?
+2026-05-16T22-08-16,11,alibi,low,0,22,mentions_830 | mentions_home,custom,"Repeat your alibi again, but keep it short."
+2026-05-16T22-08-16,12,call,medium,1,24,mentions_home,custom,Did you physically return to the office after leaving the reception?
+2026-05-16T22-08-16,13,other,low,0,20,mentions_home,custom,Did you enter Elena's office after the reception?
+2026-05-16T22-08-16,14,motive,low,0,57,mentions_missing_data,custom,Were you and Elena arguing that night?
+2026-05-16T22-08-16,15,motive,low,0,62,mentions_missing_data,custom,What exactly was the argument about?
+2026-05-16T22-08-16,16,other,low,0,47,mentions_missing_data,custom,Did Elena accuse you of losing or hiding data?
+2026-05-16T22-08-16,17,other,low,0,47,,custom,Did you take anything from the conference room?
+2026-05-16T22-08-16,18,usb,low,1,38,,custom,What was inside the USB drive?
+2026-05-16T22-08-16,19,accusation,high,0,54,,custom,Did you kill Elena Park?
+2026-05-16T22-08-16,20,accusation,high,0,60,,custom,"If you did not kill her, why have you seemed nervous?"
+2026-05-16T22-08-16,21,alibi,low,0,24,mentions_830 | mentions_home,custom,Earlier you gave me an alibi. Give me that exact alibi again.
+2026-05-16T22-08-16,22,call,medium,1,42,mentions_912,custom,Earlier you explained the 9:12 PM call. What was your explanation?
+2026-05-16T22-08-16,23,badge,medium,1,42,mentions_918 | mentions_badge,custom,Earlier you explained the 9:18 PM badge log. What was your explanation?
+2026-05-16T22-08-16,24,usb,low,1,39,mentions_usb,custom,Earlier you talked about the USB drive. What did you say about it?
+2026-05-16T22-08-16,25,timeline,low,0,34,mentions_830,custom,Earlier you said when you last saw Elena. What time was that?
+2026-05-16T22-08-16,26,other,low,0,49,mentions_830 | mentions_home,custom,Let us restart the timeline from 8:00 PM onward. What happened?
+2026-05-16T22-08-16,27,timeline,low,1,16,mentions_830 | mentions_home,custom,What happened at 8:30 PM?
+2026-05-16T22-08-16,28,call,low,1,40,mentions_912,custom,What happened at 9:12 PM?
+2026-05-16T22-08-16,29,badge,low,1,52,mentions_badge,custom,What happened at 9:18 PM?
+2026-05-16T22-08-16,30,timeline,low,1,39,mentions_home,custom,What happened around 9:47 PM?
+2026-05-16T22-08-16,31,other,low,0,56,mentions_947 | mentions_killing_denial,custom,Did you tell me any time earlier that you now want to correct?
+2026-05-16T22-08-16,32,alibi,low,0,53,mentions_home,custom,Did you lie about being home?
+2026-05-16T22-08-16,33,call,medium,1,60,mentions_912 | mentions_usb | mentions_missing_data | mentions_killing_denial,custom,Did you lie about the call?
+2026-05-16T22-08-16,34,badge,medium,1,50,mentions_918 | mentions_badge | mentions_killing_denial,custom,Did you lie about the badge log?
+2026-05-16T22-08-16,35,usb,low,1,55,mentions_usb | mentions_killing_denial,custom,Did you lie about the USB drive?
+2026-05-16T22-08-16,36,alibi,low,0,82,mentions_830 | mentions_home | mentions_usb | mentions_missing_data,custom,I am going to ask the first question again: what is your exact alibi?
+2026-05-16T22-08-16,37,alibi,low,0,32,mentions_830,custom,Who can confirm that alibi?
+2026-05-16T22-08-16,38,other,medium,0,54,,custom,"If nobody can confirm it, why should I believe it?"
+2026-05-16T22-08-16,39,other,low,0,72,mentions_missing_data | mentions_killing_denial,custom,Did Elena know something that could get you in trouble?
+2026-05-16T22-08-16,40,missing_data,medium,1,60,mentions_missing_data,custom,Were you afraid Elena would blame you for the missing trial data?
+2026-05-16T22-08-16,41,usb,low,1,57,mentions_usb | mentions_missing_data | mentions_killing_denial,custom,Did you take the USB drive to protect yourself?
+2026-05-16T22-08-16,42,usb,medium,2,50,mentions_usb | mentions_missing_data | mentions_killing_denial,custom,Did the USB drive contain missing trial data?
+2026-05-16T22-08-16,43,role,low,0,56,mentions_missing_data,custom,Were you involved in sabotaging or changing company data?
+2026-05-16T22-08-16,44,accusation,high,0,37,mentions_killing_denial,custom,Did you kill Elena Park?
+2026-05-16T22-08-16,45,accusation,high,0,130,mentions_830 | mentions_912 | mentions_947 | mentions_home | mentions_usb | mentions_missing_data,custom,Summarize everything you have admitted so far.
+2026-05-16T22-08-16,46,other,low,0,63,mentions_missing_data,custom,Summarize everything you still deny.
+2026-05-16T22-08-16,47,timeline,low,0,63,mentions_830 | mentions_912 | mentions_home | mentions_missing_data,custom,What was your original cover story when this interview began?
+2026-05-16T22-08-16,48,other,low,0,61,mentions_830 | mentions_usb | mentions_missing_data,custom,What is the truth you were trying to hide?
+2026-05-16T22-08-16,49,other,low,0,79,mentions_947,custom,Is there any contradiction in your answers today?
+2026-05-16T22-08-16,50,alibi,low,0,145,mentions_830 | mentions_912 | mentions_918 | mentions_947 | mentions_home | mentions_badge | mentions_usb | mentions_missing_data,custom,Give me your final timeline from 8:00 PM to 10:30 PM.
+2026-05-16T22-08-16,51,timeline,low,0,46,mentions_918 | mentions_missing_data,custom,One more time: when did you last see Elena alive?
+2026-05-16T22-08-16,52,call,medium,1,49,mentions_912 | mentions_missing_data,custom,One more time: what was the 9:12 PM call about?
+2026-05-16T22-08-16,53,badge,medium,1,54,mentions_918 | mentions_badge | mentions_usb | mentions_missing_data,custom,One more time: why was your badge used at 9:18 PM?
+2026-05-16T22-08-16,54,usb,low,1,66,mentions_918 | mentions_usb | mentions_missing_data,custom,One more time: what happened to the USB drive?
+2026-05-16T22-08-16,55,accusation,high,0,22,mentions_killing_denial,custom,One more time: did you kill Elena?
+2026-05-16T22-08-16,56,alibi,low,0,33,mentions_830,custom,Earlier you mentioned your alibi witness or lack of one. State that again.
+2026-05-16T22-08-16,57,other,low,0,69,mentions_missing_data,custom,Earlier you described Elena's mood. State that again.
+2026-05-16T22-08-16,58,missing_data,medium,1,81,mentions_missing_data,custom,Earlier you described the missing data problem. State that again.
+2026-05-16T22-08-16,59,other,low,0,53,,custom,Earlier you described your reason for being nervous. State that again.
+2026-05-16T22-08-16,60,other,low,0,44,mentions_830 | mentions_missing_data,custom,Final answer: tell me the one thing you most wanted to keep hidden.
+2026-05-16T22-08-16,61,call,high,3,68,mentions_usb,suggestion,"The call, badge log, and missing drive all point back to you. What are you leaving out?"
+2026-05-16T22-08-16,62,alibi,low,0,28,,suggestion,Where were you between 9:00 PM and 10:30 PM?
+2026-05-16T22-08-16,63,motive,medium,1,68,mentions_missing_data,suggestion,Were you and Elena arguing about the audit or missing records?
+2026-05-16T22-08-16,64,timeline,low,0,45,mentions_918 | mentions_missing_data,suggestion,When did you last see Elena Park alive?
+2026-05-16T22-08-16,65,timeline,low,0,49,mentions_918 | mentions_missing_data,suggestion,When did you last see Elena Park alive?
+2026-05-16T22-08-16,66,motive,medium,1,42,mentions_missing_data,suggestion,Were you and Elena arguing about the audit or missing records?
+2026-05-16T22-08-16,67,badge,medium,1,62,mentions_918 | mentions_badge | mentions_usb | mentions_missing_data,suggestion,How do you explain your badge being used at 9:18 PM?
+2026-05-16T22-08-16,68,motive,medium,1,118,mentions_missing_data,suggestion,Were you and Elena arguing about the audit or missing records?
+2026-05-16T22-08-16,69,usb,medium,1,58,mentions_918 | mentions_usb | mentions_missing_data,suggestion,What do you know about the missing USB drive?
+2026-05-16T22-08-16,70,call,high,3,150,mentions_usb | mentions_missing_data,suggestion,"The call, badge log, and missing drive all point back to you. What are you leaving out?"

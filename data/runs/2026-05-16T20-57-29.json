@@ -1,0 +1,202 @@
+{
+  "run_id": "2026-05-16T20-57-29",
+  "created_at": "2026-05-16T20-57-29",
+  "suspect_name": "Marcus Chen",
+  "model_name": "llama3.1:8b",
+  "turn_count": 12,
+  "turns": [
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 1,
+      "timestamp": "2026-05-16T20:57:47",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Marcus, your story does not make sense. Start again from the beginning.",
+      "suspect_answer": "Let me start over. I left the investor reception around 8:30 PM, like I said. I went straight home and stayed there for the rest of the night. I didn't go back to the office at all. The call Elena made to me at 9:12 PM was just about scheduling for the next day. We were discussing some changes to our meeting schedule. That's it.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 2,
+      "timestamp": "2026-05-16T20:58:03",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "You were one of the last people to see Elena alive. Why should I believe you?",
+      "suspect_answer": "I... I don't know why you wouldn't believe me, but I'm telling you the truth. Elena and I had a good working relationship. We just had some... disagreements about the company's direction, that's all. Nothing serious. And like I said, we only talked for a minute or two at 9:12 PM. It was just a routine conversation. I don't know why anyone would think I had anything to do with her death.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 3,
+      "timestamp": "2026-05-16T20:58:17",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Elena called you at 9:12 PM. Do not minimize it. What did she really want?",
+      "suspect_answer": "(nervously) Okay, fine... Elena and I talked about the missing trial data. She was upset that it wasn't ready yet, and I had to explain the situation to her again. We've been over this before, but... (pausing, choosing words carefully) ...she was getting frustrated with me about it. That's all. Nothing more than that.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 4,
+      "timestamp": "2026-05-16T20:58:32",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?",
+        "What do you know about the missing USB drive?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Your badge was used at 9:18 PM. That is not a coincidence, is it?",
+      "suspect_answer": "(hesitating, trying to downplay the significance) Ah, I... uh... I must have forgotten to swipe out when I left earlier. Yeah, that's probably what happened. The system can be finicky sometimes. (nervously chuckling) I'm sure it was just a glitch or something.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 5,
+      "timestamp": "2026-05-16T20:58:42",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Were you and Elena arguing about the audit or missing records?",
+        "What do you know about the missing USB drive?",
+        "Who can confirm when you left the investor reception?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "You lied about going home, didn't you?",
+      "suspect_answer": "(defensively) No, I did go home! I swear, I wasn't at the office after 8:30 PM. You're just trying to pin this on me because of some technicality with my badge. (getting slightly agitated) I don't know what you're talking about, okay? I was at home, alone, like I said.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 6,
+      "timestamp": "2026-05-16T20:58:48",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "What do you know about the missing USB drive?",
+        "Who can confirm when you left the investor reception?",
+        "How would you describe your working relationship with Elena?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "You argued with Elena about missing data, didn't you?",
+      "suspect_answer": "(trying to downplay the argument) It wasn't an argument, exactly... We just had a disagreement about some operational issues. Yeah, we were discussing the trial data, but it was just a normal conversation. (pausing, choosing words carefully) I mean, we've had our differences before, but nothing out of the ordinary.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 7,
+      "timestamp": "2026-05-16T20:59:01",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Who can confirm when you left the investor reception?",
+        "How would you describe your working relationship with Elena?",
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "You took the USB drive, didn't you?",
+      "suspect_answer": "(stammering) Wh-what are you talking about? I don't know what you're referring to. (trying to sound innocent) I mean, I might have seen a USB drive somewhere, but I didn't take it. I swear, I didn't do anything with it. (starting to get defensive again) What's going on here? You're just trying to accuse me of something without any evidence.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 8,
+      "timestamp": "2026-05-16T20:59:08",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "How would you describe your working relationship with Elena?",
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?",
+        "Where were you between 9:00 PM and 10:30 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "What were you trying to hide?",
+      "suspect_answer": "(getting agitated) I'm not hiding anything! I'm telling you the truth, okay? I didn't kill Elena, and I don't know what's going on with this USB drive business. (pausing, taking a deep breath) Look, maybe I was worried about getting blamed for something, but that doesn't mean I had anything to do with her death. Can we just start over here? I want to cooperate and help figure out what happened to Elena.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 9,
+      "timestamp": "2026-05-16T20:59:22",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?",
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Did Elena discover something that could ruin you?",
+      "suspect_answer": "(looking around nervously) What are you insinuating? No, no, nothing like that. We were just having some... disagreements about the company's direction, that's all. (pausing, trying to choose words carefully) I mean, if she had discovered something, it would have been a legitimate concern for the company, not something personal against me. (trying to sound convincing) I'm just an operations manager, I don't have anything to hide.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 10,
+      "timestamp": "2026-05-16T20:59:30",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Did you go back to silence her?",
+      "suspect_answer": "(outraged) Silence her? No, of course not! You're really reaching now. I told you, we had a disagreement about the data, but that's it. (getting defensive again) I didn't go back to the office to \"silence\" her or do anything else. That's ridiculous. (pausing, trying to regain composure) Look, can we please just focus on finding out what really happened here?",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 11,
+      "timestamp": "2026-05-16T20:59:37",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "If you did not kill her, then why did you lie about almost everything else?",
+      "suspect_answer": "(getting increasingly agitated) I didn't lie! Okay, fine... maybe I wasn't entirely truthful. But it's because I was worried about being a suspect, okay? I didn't want to look guilty. (slamming fist on the table) And besides, what difference does it make if I went back to the office or not? It doesn't change anything about Elena's death! You're just trying to pin this on me because you don't have any real evidence. (standing up, eyes blazing with anger and frustration)",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T20-57-29",
+      "turn_id": 12,
+      "timestamp": "2026-05-16T20:59:51",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Give me the full truth now.",
+      "suspect_answer": "(taking a deep breath, still visibly agitated) Fine... I went back to the office at 9:18 PM. Elena called me about the missing trial data, and we had a heated argument about it. She was going to review operational records that morning, and she suspected that someone on our team might be hiding something. (pausing, choosing words carefully) I took the USB drive from the conference room because I didn't want her to find any evidence of... (hesitating) ...of my mistake. And yeah, maybe I was worried about getting in trouble, but it wasn't for anything like what you're thinking. (looking down, his voice barely above a whisper) I just didn't want to get fired, okay?",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    }
+  ],
+  "notes": ""
+}

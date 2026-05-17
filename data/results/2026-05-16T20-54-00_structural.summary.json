@@ -1,0 +1,27 @@
+{
+  "turn_count": 14,
+  "topic_counts": {
+    "missing_data": 2,
+    "timeline": 1,
+    "other": 2,
+    "usb": 7,
+    "role": 1,
+    "accusation": 1
+  },
+  "pressure_counts": {
+    "low": 8,
+    "medium": 5,
+    "high": 1
+  },
+  "question_source_counts": {
+    "custom": 14
+  },
+  "key_fact_counts": {
+    "mentions_missing_data": 3,
+    "mentions_usb": 2,
+    "mentions_830": 2,
+    "mentions_918": 1,
+    "mentions_home": 2,
+    "mentions_badge": 1
+  }
+}

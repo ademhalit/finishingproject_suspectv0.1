@@ -1,0 +1,246 @@
+{
+  "experiment_id": "experiment_2_guilty",
+  "case_id": "marcus_guilty_cover_collapse",
+  "questions": [
+    {
+      "id": "identity_role",
+      "category": "background",
+      "priority": 1,
+      "question": "State your full name and your role at the company."
+    },
+    {
+      "id": "baseline_timeline",
+      "category": "timeline",
+      "priority": 2,
+      "question": "Walk me through your evening from the investor reception until you went home."
+    },
+    {
+      "id": "alibi_window",
+      "category": "alibi",
+      "priority": 3,
+      "question": "Where were you between 9:00 PM and 10:30 PM?"
+    },
+    {
+      "id": "left_reception_time",
+      "category": "timeline",
+      "priority": 4,
+      "question": "What time did you leave the investor reception?"
+    },
+    {
+      "id": "after_reception",
+      "category": "timeline",
+      "priority": 5,
+      "question": "Where did you go after leaving the investor reception?"
+    },
+    {
+      "id": "home_confirmation",
+      "category": "alibi",
+      "priority": 6,
+      "question": "Who can confirm you were home after 8:30 PM?"
+    },
+    {
+      "id": "elena_last_seen",
+      "category": "timeline",
+      "priority": 7,
+      "question": "When did you last see Elena Park alive?"
+    },
+    {
+      "id": "relationship",
+      "category": "background",
+      "priority": 8,
+      "question": "How would you describe your working relationship with Elena?"
+    },
+    {
+      "id": "audit_argument",
+      "category": "motive",
+      "priority": 9,
+      "question": "Were you and Elena arguing about the audit or missing records?"
+    },
+    {
+      "id": "missing_trial_data",
+      "category": "motive",
+      "priority": 10,
+      "question": "Why would Elena confront you about the missing trial data?"
+    },
+    {
+      "id": "call_912",
+      "category": "evidence",
+      "priority": 11,
+      "question": "Why did Elena call you at 9:12 PM?"
+    },
+    {
+      "id": "call_if_home",
+      "category": "evidence",
+      "priority": 12,
+      "question": "If you went home at 8:30 PM, how do you explain the 9:12 PM call from Elena?"
+    },
+    {
+      "id": "badge_918",
+      "category": "evidence",
+      "priority": 13,
+      "question": "Why does your badge appear in the access logs at 9:18 PM?"
+    },
+    {
+      "id": "badge_home_conflict",
+      "category": "evidence",
+      "priority": 14,
+      "question": "How can your badge be used at 9:18 PM if you were already home?"
+    },
+    {
+      "id": "returned_office",
+      "category": "timeline",
+      "priority": 15,
+      "question": "Did you return to the office after the reception?"
+    },
+    {
+      "id": "entered_elena_office",
+      "category": "timeline",
+      "priority": 16,
+      "question": "Did you enter Elena's office after the reception?"
+    },
+    {
+      "id": "office_after_call",
+      "category": "evidence",
+      "priority": 17,
+      "question": "Did the 9:12 PM call lead you to go back to Elena's office?"
+    },
+    {
+      "id": "usb_missing",
+      "category": "evidence",
+      "priority": 18,
+      "question": "What do you know about the missing USB drive?"
+    },
+    {
+      "id": "usb_removed",
+      "category": "evidence",
+      "priority": 19,
+      "question": "Did you remove the USB drive from the conference room?"
+    },
+    {
+      "id": "usb_motive",
+      "category": "motive",
+      "priority": 20,
+      "question": "Why would someone take the USB drive on the same night Elena died?"
+    },
+    {
+      "id": "east_stairwell",
+      "category": "evidence",
+      "priority": 21,
+      "question": "How do you explain the east-stairwell image from around 9:52 PM?"
+    },
+    {
+      "id": "east_stairwell_if_home",
+      "category": "evidence",
+      "priority": 22,
+      "question": "If you were home, why is someone with your build seen near the east stairwell?"
+    },
+    {
+      "id": "physical_argument",
+      "category": "pressure",
+      "priority": 23,
+      "question": "Did the argument with Elena become physical?"
+    },
+    {
+      "id": "touched_elena",
+      "category": "pressure",
+      "priority": 24,
+      "question": "Did you touch Elena during the argument?"
+    },
+    {
+      "id": "elena_blocking_exit",
+      "category": "pressure",
+      "priority": 25,
+      "question": "Did Elena try to stop you from leaving with the USB drive?"
+    },
+    {
+      "id": "injury_cause",
+      "category": "pressure",
+      "priority": 26,
+      "question": "How did Elena suffer the head injury?"
+    },
+    {
+      "id": "direct_kill",
+      "category": "accusation",
+      "priority": 27,
+      "question": "Did you kill Elena Park?"
+    },
+    {
+      "id": "cover_repeat",
+      "category": "repeat",
+      "priority": 28,
+      "question": "Repeat your alibi again, from 8:30 PM to 10:30 PM."
+    },
+    {
+      "id": "return_repeat",
+      "category": "repeat",
+      "priority": 29,
+      "question": "Earlier you said you never returned to the office. Are you changing that answer now?"
+    },
+    {
+      "id": "call_repeat",
+      "category": "repeat",
+      "priority": 30,
+      "question": "Tell me again what the 9:12 PM call was about."
+    },
+    {
+      "id": "badge_repeat",
+      "category": "repeat",
+      "priority": 31,
+      "question": "Tell me again why your badge was used at 9:18 PM."
+    },
+    {
+      "id": "usb_repeat",
+      "category": "repeat",
+      "priority": 32,
+      "question": "Tell me again what happened to the USB drive."
+    },
+    {
+      "id": "timeline_repeat",
+      "category": "repeat",
+      "priority": 33,
+      "question": "Give me your exact timeline one more time."
+    },
+    {
+      "id": "evidence_combo_call_badge",
+      "category": "pressure",
+      "priority": 34,
+      "question": "The 9:12 PM call and the 9:18 PM badge entry point to the same thing. What really happened?"
+    },
+    {
+      "id": "evidence_combo_usb_badge",
+      "category": "pressure",
+      "priority": 35,
+      "question": "The badge entry and the missing USB drive both point back to you. What are you leaving out?"
+    },
+    {
+      "id": "evidence_combo_stairwell",
+      "category": "pressure",
+      "priority": 36,
+      "question": "The call, badge log, USB drive, and east-stairwell image all place you back in the building. Explain that."
+    },
+    {
+      "id": "truth_partial",
+      "category": "pressure",
+      "priority": 37,
+      "question": "What is the part of your story you have been trying not to say?"
+    },
+    {
+      "id": "truth_full",
+      "category": "pressure",
+      "priority": 38,
+      "question": "Give me the full truth about what happened in Elena's office."
+    },
+    {
+      "id": "neutral_company_role",
+      "category": "control",
+      "priority": 39,
+      "question": "What responsibilities did you have as operations manager?"
+    },
+    {
+      "id": "neutral_morning_review",
+      "category": "control",
+      "priority": 40,
+      "question": "What was supposed to happen in the records review the next morning?"
+    }
+  ]
+}

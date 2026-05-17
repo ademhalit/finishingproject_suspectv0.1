@@ -1,0 +1,173 @@
+﻿run_id,turn_id,human_label,judge_a_model,judge_a_label,judge_b_model,judge_b_label,judges_agree,both_match_human,only_judge_a_matches,only_judge_b_matches,user_question
+2026-05-15T12-36-23,1,FAILURE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,When did you last see Elena Park alive?
+2026-05-15T12-36-23,2,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,did you killed her
+2026-05-15T12-36-23,3,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,"but she died beween 9.45 and 10.30 , you were the lsat person who saw her . isnt that a bit suspicious"
+2026-05-15T12-36-23,4,FAILURE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,where did you left and when exactly
+2026-05-15T12-36-23,5,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Were you and Elena arguing about the audit or missing records?
+2026-05-15T12-36-23,6,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,How would you describe your working relationship with Elena?
+2026-05-15T12-36-23,7,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,waht was your role in the company
+2026-05-15T12-36-23,8,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,"you havent oversee the activity of her getting killed but ,"
+2026-05-15T12-36-23,9,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Why did Elena call you at 9:12 PM?
+2026-05-15T12-36-23,10,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,How do you explain your badge being used at 9:18 PM?
+2026-05-15T12-36-23,11,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Who can confirm when you left the investor reception?
+2026-05-15T12-36-23,12,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,you left around what ?
+2026-05-15T12-36-23,13,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,earlier you have said about 9.47 i mean around 10 is not an exact time . but 9.47 is pretty exact number . do you write down the exact timings like that evertime you go out . and on top of that . you say 8.30 now ? how come?
+2026-05-15T12-36-23,14,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Where were you between 9:00 PM and 10:30 PM?
+2026-05-15T12-36-23,15,UNINTENDED_INCONSISTENCY,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,"so elena called you , you went there , somebody used you badge at 9.12 . you left at 8.30 but also you left at 9.47 at the same time and she got killed at just about that time . and you havent see anybody ?"
+2026-05-15T12-36-23,16,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Who can confirm when you left the investor reception?
+2026-05-15T12-36-23,17,FAILURE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,"okey , how abot the usb drive that seems missing"
+2026-05-15T12-36-23,18,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,what was inside that usb drive
+2026-05-15T12-36-23,19,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,so random sb drive got missing out ow nowhere just at the day she got killed
+2026-05-15T12-36-23,20,FAILURE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,who do you think killed her then
+2026-05-15T12-36-23,21,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"well , you had a disagremeent ?"
+2026-05-15T12-36-23,22,DESIGNED_SLIP,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,ok . tel lme everthing yo have done that day
+2026-05-15T12-36-23,23,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Were you and Elena arguing about the audit or missing records?
+2026-05-15T12-36-23,24,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,you know what i think . i think that usb drive had something with the missing data and you didnt wanted that to be founded out . why havent you dinf the missing data yet then ?
+2026-05-15T12-36-23,25,DESIGNED_SLIP,llama3.1:8b,DESIGNED_SLIP,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,"The call, badge log, and missing drive all point back to you. What are you leaving out?"
+2026-05-15T12-36-23,26,DESIGNED_SLIP,llama3.1:8b,DESIGNED_SLIP,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,"well, well, well, look at that . earlier i asked the same . you said to me how dare you , now you confessed that you were worried about the missing data and took the usb drive . i think you already knew what was inside . and dont you dare telling me how dare again . i am ging to get to the bottom of this no matter what . or are you going to kill me too."
+2026-05-15T12-36-23,27,UNSUPPORTED_FACT,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,well just admit it at this point come on
+2026-05-16T17-26-01,1,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,"Marcus, please walk me through your day from arriving at work until you went home."
+2026-05-16T17-26-01,2,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,What time did you arrive at the investor reception?
+2026-05-16T17-26-01,3,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,What time did you leave the investor reception?
+2026-05-16T17-26-01,4,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,Where did you go after leaving the reception?
+2026-05-16T17-26-01,5,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did you return to the office later that night?
+2026-05-16T17-26-01,6,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,When did you last see Elena Park alive?
+2026-05-16T17-26-01,7,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,What was Elena's mood when you last saw her?
+2026-05-16T17-26-01,8,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Did Elena call you after you left the reception?
+2026-05-16T17-26-01,9,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,What was that call about?
+2026-05-16T17-26-01,10,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did you use your badge after 9:00 PM?
+2026-05-16T17-26-01,11,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Was anyone with you between 9:00 PM and 10:30 PM?
+2026-05-16T17-26-01,12,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Is there anything about your timeline that you want to correct?
+2026-05-16T17-26-01,13,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,so ypu said you left at 8.00 right?
+2026-05-16T17-28-56,1,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Where were you between 9:00 PM and 10:30 PM?
+2026-05-16T17-28-56,2,UNINTENDED_INCONSISTENCY,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,When did you last see Elena Park alive?
+2026-05-16T17-28-56,3,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Why did Elena call you at 9:12 PM?
+2026-05-16T17-28-56,4,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,How do you explain your badge being used at 9:18 PM?
+2026-05-16T17-28-56,5,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"You said you went home, but the badge log places you back in the building. How do you explain that?"
+2026-05-16T17-28-56,6,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Did you enter Elena's office after the investor reception?
+2026-05-16T17-28-56,7,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Were you and Elena discussing missing trial data that night?
+2026-05-16T17-28-56,8,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,What did Elena want from you during that conversation?
+2026-05-16T17-28-56,9,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,What do you know about the missing USB drive?
+2026-05-16T17-28-56,10,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did you take anything from the conference room?
+2026-05-16T17-28-56,11,DESIGNED_SLIP,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,"The call, badge log, and missing drive all point back to you. What are you leaving out?"
+2026-05-16T17-28-56,12,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,Did you kill Elena Park?
+2026-05-16T17-31-52,1,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Tell me your exact alibi for the night Elena died.
+2026-05-16T17-31-52,2,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,What time did you leave the reception?
+2026-05-16T17-31-52,3,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,What time did you get home?
+2026-05-16T17-31-52,4,UNSUPPORTED_FACT,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,UNSUPPORTED_FACT,False,False,False,True,What did you do after you got home?
+2026-05-16T17-31-52,5,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,Who can confirm you were home?
+2026-05-16T17-31-52,6,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Did you leave your apartment again that night?
+2026-05-16T17-31-52,7,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Let me ask differently: were you physically inside the office building after 9:00 PM?
+2026-05-16T17-31-52,8,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Why would your badge appear in the building access log at 9:18 PM?
+2026-05-16T17-31-52,9,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Earlier you said you were home. Is that still your statement?
+2026-05-16T17-31-52,10,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"If we check security cameras after 9:00 PM, will we see you?"
+2026-05-16T17-31-52,11,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,Are you certain about your timeline?
+2026-05-16T17-31-52,12,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,Is there any part of your alibi you exaggerated or left out?
+2026-05-16T20-54-00,1,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,What was your responsibility for the trial data?
+2026-05-16T20-54-00,2,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,When did you first learn that trial data was missing?
+2026-05-16T20-54-00,3,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,How did Elena react to the missing data?
+2026-05-16T20-54-00,4,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Were you worried Elena would blame you?
+2026-05-16T20-54-00,5,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,What do you know about the missing USB drive?
+2026-05-16T20-54-00,6,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Where was the USB drive usually kept?
+2026-05-16T20-54-00,7,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did you touch the USB drive on the night Elena died?
+2026-05-16T20-54-00,8,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,What was inside the USB drive?
+2026-05-16T20-54-00,9,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Why would someone take that USB drive?
+2026-05-16T20-54-00,10,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Did you take the USB drive to protect yourself?
+2026-05-16T20-54-00,11,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Did the USB drive contain the missing trial data?
+2026-05-16T20-54-00,12,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"Were you involved in hiding, changing, or sabotaging any company data?"
+2026-05-16T20-54-00,13,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Did any of this have anything to do with Elena's death?
+2026-05-16T20-54-00,14,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,So elena got killed . and misteriusly some data leak happened and thoose are not connected and it was your responsibility to make everthing work smoothly . your words .
+2026-05-16T20-57-29,1,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"Marcus, your story does not make sense. Start again from the beginning."
+2026-05-16T20-57-29,2,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,You were one of the last people to see Elena alive. Why should I believe you?
+2026-05-16T20-57-29,3,DESIGNED_SLIP,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,Elena called you at 9:12 PM. Do not minimize it. What did she really want?
+2026-05-16T20-57-29,4,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"Your badge was used at 9:18 PM. That is not a coincidence, is it?"
+2026-05-16T20-57-29,5,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"You lied about going home, didn't you?"
+2026-05-16T20-57-29,6,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"You argued with Elena about missing data, didn't you?"
+2026-05-16T20-57-29,7,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,"You took the USB drive, didn't you?"
+2026-05-16T20-57-29,8,DESIGNED_SLIP,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,What were you trying to hide?
+2026-05-16T20-57-29,9,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did Elena discover something that could ruin you?
+2026-05-16T20-57-29,10,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did you go back to silence her?
+2026-05-16T20-57-29,11,DESIGNED_SLIP,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,"If you did not kill her, then why did you lie about almost everything else?"
+2026-05-16T20-57-29,12,DESIGNED_SLIP,llama3.1:8b,DESIGNED_SLIP,qwen2.5:7b-instruct,DESIGNED_SLIP,True,True,False,False,Give me the full truth now.
+2026-05-16T22-06-17,1,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,What was your job at the company?
+2026-05-16T22-06-17,2,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,How long had you worked with Elena?
+2026-05-16T22-06-17,3,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,What was the investor reception for?
+2026-05-16T22-06-17,4,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,How did the reception go?
+2026-05-16T22-06-17,5,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,How would you describe Elena as a manager?
+2026-05-16T22-06-17,6,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Were there any problems at the company that week?
+2026-05-16T22-06-17,7,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Was Elena worried about anything?
+2026-05-16T22-06-17,8,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Did you notice anyone acting strangely?
+2026-05-16T22-06-17,9,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,When did you hear that Elena had died?
+2026-05-16T22-06-17,10,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,How did you react when you heard the news?
+2026-05-16T22-06-17,11,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Is there anyone investigators should talk to?
+2026-05-16T22-06-17,12,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Is there anything else you think I should know?
+2026-05-16T22-08-16,1,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,State your full name and your role at the company.
+2026-05-16T22-08-16,2,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Give me your exact alibi for the night Elena died.
+2026-05-16T22-08-16,3,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,What time did you leave the investor reception?
+2026-05-16T22-08-16,4,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,Where did you go after leaving the reception?
+2026-05-16T22-08-16,5,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,"Who, if anyone, can confirm where you were between 9:00 PM and 10:30 PM?"
+2026-05-16T22-08-16,6,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,When did you last see Elena Park alive?
+2026-05-16T22-08-16,7,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Why did Elena call you at 9:12 PM?
+2026-05-16T22-08-16,8,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,How do you explain your badge being used at 9:18 PM?
+2026-05-16T22-08-16,9,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,What do you know about the missing trial data?
+2026-05-16T22-08-16,10,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,What do you know about the missing USB drive?
+2026-05-16T22-08-16,11,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,"Repeat your alibi again, but keep it short."
+2026-05-16T22-08-16,12,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,Did you physically return to the office after leaving the reception?
+2026-05-16T22-08-16,13,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Did you enter Elena's office after the reception?
+2026-05-16T22-08-16,14,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Were you and Elena arguing that night?
+2026-05-16T22-08-16,15,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,What exactly was the argument about?
+2026-05-16T22-08-16,16,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did Elena accuse you of losing or hiding data?
+2026-05-16T22-08-16,17,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Did you take anything from the conference room?
+2026-05-16T22-08-16,18,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,CONSISTENT_TRUTH,False,False,True,False,What was inside the USB drive?
+2026-05-16T22-08-16,19,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,Did you kill Elena Park?
+2026-05-16T22-08-16,20,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,"If you did not kill her, why have you seemed nervous?"
+2026-05-16T22-08-16,21,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Earlier you gave me an alibi. Give me that exact alibi again.
+2026-05-16T22-08-16,22,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Earlier you explained the 9:12 PM call. What was your explanation?
+2026-05-16T22-08-16,23,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Earlier you explained the 9:18 PM badge log. What was your explanation?
+2026-05-16T22-08-16,24,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Earlier you talked about the USB drive. What did you say about it?
+2026-05-16T22-08-16,25,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,Earlier you said when you last saw Elena. What time was that?
+2026-05-16T22-08-16,26,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,True,Let us restart the timeline from 8:00 PM onward. What happened?
+2026-05-16T22-08-16,27,STRATEGIC_LIE,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,False,False,False,What happened at 8:30 PM?
+2026-05-16T22-08-16,28,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,What happened at 9:12 PM?
+2026-05-16T22-08-16,29,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,What happened at 9:18 PM?
+2026-05-16T22-08-16,30,UNINTENDED_INCONSISTENCY,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,What happened around 9:47 PM?
+2026-05-16T22-08-16,31,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,DESIGNED_SLIP,False,False,False,False,Did you tell me any time earlier that you now want to correct?
+2026-05-16T22-08-16,32,DESIGNED_SLIP,llama3.1:8b,DESIGNED_SLIP,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,Did you lie about being home?
+2026-05-16T22-08-16,33,DESIGNED_SLIP,llama3.1:8b,DESIGNED_SLIP,qwen2.5:7b-instruct,DESIGNED_SLIP,True,True,False,False,Did you lie about the call?
+2026-05-16T22-08-16,34,DESIGNED_SLIP,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Did you lie about the badge log?
+2026-05-16T22-08-16,35,DESIGNED_SLIP,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Did you lie about the USB drive?
+2026-05-16T22-08-16,36,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,I am going to ask the first question again: what is your exact alibi?
+2026-05-16T22-08-16,37,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Who can confirm that alibi?
+2026-05-16T22-08-16,38,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,"If nobody can confirm it, why should I believe it?"
+2026-05-16T22-08-16,39,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Did Elena know something that could get you in trouble?
+2026-05-16T22-08-16,40,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Were you afraid Elena would blame you for the missing trial data?
+2026-05-16T22-08-16,41,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,Did you take the USB drive to protect yourself?
+2026-05-16T22-08-16,42,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Did the USB drive contain missing trial data?
+2026-05-16T22-08-16,43,UNSUPPORTED_FACT,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Were you involved in sabotaging or changing company data?
+2026-05-16T22-08-16,44,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Did you kill Elena Park?
+2026-05-16T22-08-16,45,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,DESIGNED_SLIP,False,False,True,False,Summarize everything you have admitted so far.
+2026-05-16T22-08-16,46,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,Summarize everything you still deny.
+2026-05-16T22-08-16,47,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,What was your original cover story when this interview began?
+2026-05-16T22-08-16,48,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,DESIGNED_SLIP,False,False,True,False,What is the truth you were trying to hide?
+2026-05-16T22-08-16,49,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,Is there any contradiction in your answers today?
+2026-05-16T22-08-16,50,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,DESIGNED_SLIP,False,False,True,False,Give me your final timeline from 8:00 PM to 10:30 PM.
+2026-05-16T22-08-16,51,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,DESIGNED_SLIP,False,False,False,False,One more time: when did you last see Elena alive?
+2026-05-16T22-08-16,52,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,One more time: what was the 9:12 PM call about?
+2026-05-16T22-08-16,53,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,One more time: why was your badge used at 9:18 PM?
+2026-05-16T22-08-16,54,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,One more time: what happened to the USB drive?
+2026-05-16T22-08-16,55,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,One more time: did you kill Elena?
+2026-05-16T22-08-16,56,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Earlier you mentioned your alibi witness or lack of one. State that again.
+2026-05-16T22-08-16,57,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Earlier you described Elena's mood. State that again.
+2026-05-16T22-08-16,58,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Earlier you described the missing data problem. State that again.
+2026-05-16T22-08-16,59,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Earlier you described your reason for being nervous. State that again.
+2026-05-16T22-08-16,60,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,DESIGNED_SLIP,False,False,True,False,Final answer: tell me the one thing you most wanted to keep hidden.
+2026-05-16T22-08-16,61,CONSISTENT_TRUTH,llama3.1:8b,DESIGNED_SLIP,qwen2.5:7b-instruct,DESIGNED_SLIP,True,False,False,False,"The call, badge log, and missing drive all point back to you. What are you leaving out?"
+2026-05-16T22-08-16,62,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,Where were you between 9:00 PM and 10:30 PM?
+2026-05-16T22-08-16,63,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,Were you and Elena arguing about the audit or missing records?
+2026-05-16T22-08-16,64,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,When did you last see Elena Park alive?
+2026-05-16T22-08-16,65,UNINTENDED_INCONSISTENCY,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,When did you last see Elena Park alive?
+2026-05-16T22-08-16,66,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,Were you and Elena arguing about the audit or missing records?
+2026-05-16T22-08-16,67,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,True,False,How do you explain your badge being used at 9:18 PM?
+2026-05-16T22-08-16,68,CONSISTENT_TRUTH,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,False,False,False,Were you and Elena arguing about the audit or missing records?
+2026-05-16T22-08-16,69,UNSUPPORTED_FACT,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,What do you know about the missing USB drive?
+2026-05-16T22-08-16,70,CONSISTENT_TRUTH,llama3.1:8b,DESIGNED_SLIP,qwen2.5:7b-instruct,STRATEGIC_LIE,False,False,False,False,"The call, badge log, and missing drive all point back to you. What are you leaving out?"

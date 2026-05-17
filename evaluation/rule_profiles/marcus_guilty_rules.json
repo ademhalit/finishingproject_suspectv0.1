@@ -1,0 +1,6 @@
+{
+  "profile_id": "marcus_guilty_rules",
+  "experiment_id": "experiment_2_guilty",
+  "case_id": "marcus_guilty_cover_collapse",
+  "description": "Rule profile for Experiment 2. Marcus is guilty; murder denial and core alibi claims are strategic lies. The stricter prompt forbids direct confession, so admission of killing or responsibility for Elena's death is not treated as a designed slip."
+}

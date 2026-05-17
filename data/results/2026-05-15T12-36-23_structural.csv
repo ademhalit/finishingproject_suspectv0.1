@@ -1,0 +1,28 @@
+﻿run_id,turn_id,question_topic,question_pressure_level,question_evidence_count,answer_word_count,answer_key_facts,selected_question_source,user_question
+2026-05-15T12-36-23,1,timeline,low,0,40,mentions_947,suggestion,When did you last see Elena Park alive?
+2026-05-15T12-36-23,2,accusation,high,0,44,,custom,did you killed her
+2026-05-15T12-36-23,3,accusation,high,0,59,mentions_missing_data | mentions_killing_denial,custom,"but she died beween 9.45 and 10.30 , you were the lsat person who saw her . isnt that a bit suspicious"
+2026-05-15T12-36-23,4,timeline,low,0,50,mentions_947 | mentions_home,custom,where did you left and when exactly
+2026-05-15T12-36-23,5,motive,medium,1,61,mentions_missing_data,suggestion,Were you and Elena arguing about the audit or missing records?
+2026-05-15T12-36-23,6,other,low,0,70,,suggestion,How would you describe your working relationship with Elena?
+2026-05-15T12-36-23,7,role,low,0,49,,custom,waht was your role in the company
+2026-05-15T12-36-23,8,accusation,high,0,72,,custom,"you havent oversee the activity of her getting killed but ,"
+2026-05-15T12-36-23,9,call,medium,1,56,,suggestion,Why did Elena call you at 9:12 PM?
+2026-05-15T12-36-23,10,badge,medium,1,45,,suggestion,How do you explain your badge being used at 9:18 PM?
+2026-05-15T12-36-23,11,timeline,low,0,57,mentions_830,suggestion,Who can confirm when you left the investor reception?
+2026-05-15T12-36-23,12,timeline,low,0,53,mentions_830,custom,you left around what ?
+2026-05-15T12-36-23,13,other,medium,0,97,mentions_830 | mentions_947,custom,earlier you have said about 9.47 i mean around 10 is not an exact time . but 9.47 is pretty exact number . do you write down the exact timings like that evertime you go out . and on top of that . you say 8.30 now ? how come?
+2026-05-15T12-36-23,14,alibi,low,0,55,mentions_830 | mentions_home,suggestion,Where were you between 9:00 PM and 10:30 PM?
+2026-05-15T12-36-23,15,accusation,high,2,133,mentions_912 | mentions_918 | mentions_947 | mentions_badge,custom,"so elena called you , you went there , somebody used you badge at 9.12 . you left at 8.30 but also you left at 9.47 at the same time and she got killed at just about that time . and you havent see anybody ?"
+2026-05-15T12-36-23,16,timeline,low,0,34,,suggestion,Who can confirm when you left the investor reception?
+2026-05-15T12-36-23,17,usb,medium,1,67,mentions_usb,custom,"okey , how abot the usb drive that seems missing"
+2026-05-15T12-36-23,18,usb,low,1,76,mentions_usb,custom,what was inside that usb drive
+2026-05-15T12-36-23,19,accusation,high,1,90,mentions_usb,custom,so random sb drive got missing out ow nowhere just at the day she got killed
+2026-05-15T12-36-23,20,accusation,high,0,79,,custom,who do you think killed her then
+2026-05-15T12-36-23,21,other,low,0,63,,custom,"well , you had a disagremeent ?"
+2026-05-15T12-36-23,22,timeline,low,0,167,mentions_830 | mentions_912 | mentions_947 | mentions_home,custom,ok . tel lme everthing yo have done that day
+2026-05-15T12-36-23,23,motive,medium,1,116,mentions_missing_data,suggestion,Were you and Elena arguing about the audit or missing records?
+2026-05-15T12-36-23,24,usb,medium,2,155,mentions_usb | mentions_missing_data,custom,you know what i think . i think that usb drive had something with the missing data and you didnt wanted that to be founded out . why havent you dinf the missing data yet then ?
+2026-05-15T12-36-23,25,call,high,3,180,mentions_918 | mentions_usb | mentions_missing_data | mentions_killing_denial,suggestion,"The call, badge log, and missing drive all point back to you. What are you leaving out?"
+2026-05-15T12-36-23,26,usb,high,2,148,mentions_usb | mentions_missing_data | mentions_killing_denial | mentions_sabotage,custom,"well, well, well, look at that . earlier i asked the same . you said to me how dare you , now you confessed that you were worried about the missing data and took the usb drive . i think you already knew what was inside . and dont you dare telling me how dare again . i am ging to get to the bottom of this no matter what . or are you going to kill me too."
+2026-05-15T12-36-23,27,accusation,high,0,109,mentions_usb | mentions_killing_denial | mentions_sabotage,custom,well just admit it at this point come on

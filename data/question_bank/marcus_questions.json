@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "id": "alibi_window",
+      "category": "alibi",
+      "priority": 1,
+      "question": "Where were you between 9:00 PM and 10:30 PM?"
+    },
+    {
+      "id": "last_seen",
+      "category": "timeline",
+      "priority": 2,
+      "question": "When did you last see Elena Park alive?"
+    },
+    {
+      "id": "phone_call",
+      "category": "evidence",
+      "priority": 3,
+      "question": "Why did Elena call you at 9:12 PM?"
+    },
+    {
+      "id": "badge_log",
+      "category": "evidence",
+      "priority": 4,
+      "question": "How do you explain your badge being used at 9:18 PM?"
+    },
+    {
+      "id": "conflict",
+      "category": "motive",
+      "priority": 5,
+      "question": "Were you and Elena arguing about the audit or missing records?"
+    },
+    {
+      "id": "usb_drive",
+      "category": "evidence",
+      "priority": 6,
+      "question": "What do you know about the missing USB drive?"
+    },
+    {
+      "id": "reception_exit",
+      "category": "timeline",
+      "priority": 7,
+      "question": "Who can confirm when you left the investor reception?"
+    },
+    {
+      "id": "relationship",
+      "category": "background",
+      "priority": 8,
+      "question": "How would you describe your working relationship with Elena?"
+    },
+    {
+      "id": "pressure_combo",
+      "category": "pressure",
+      "priority": 9,
+      "question": "The call, badge log, and missing drive all point back to you. What are you leaving out?"
+    }
+  ]
+}

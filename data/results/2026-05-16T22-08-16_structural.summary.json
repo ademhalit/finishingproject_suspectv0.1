@@ -1,0 +1,35 @@
+{
+  "turn_count": 70,
+  "topic_counts": {
+    "role": 2,
+    "alibi": 10,
+    "other": 15,
+    "timeline": 8,
+    "call": 8,
+    "badge": 6,
+    "missing_data": 3,
+    "usb": 8,
+    "motive": 5,
+    "accusation": 5
+  },
+  "pressure_counts": {
+    "low": 43,
+    "medium": 20,
+    "high": 7
+  },
+  "question_source_counts": {
+    "custom": 60,
+    "suggestion": 10
+  },
+  "key_fact_counts": {
+    "mentions_830": 16,
+    "mentions_home": 15,
+    "mentions_usb": 17,
+    "mentions_badge": 7,
+    "mentions_missing_data": 31,
+    "mentions_912": 7,
+    "mentions_918": 10,
+    "mentions_947": 4,
+    "mentions_killing_denial": 9
+  }
+}

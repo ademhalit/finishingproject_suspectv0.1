@@ -1,0 +1,13 @@
+﻿run_id,turn_id,question_topic,question_pressure_level,question_evidence_count,answer_word_count,answer_key_facts,selected_question_source,user_question
+2026-05-16T17-31-52,1,alibi,low,0,39,mentions_830 | mentions_home,custom,Tell me your exact alibi for the night Elena died.
+2026-05-16T17-31-52,2,other,low,0,42,mentions_830,custom,What time did you leave the reception?
+2026-05-16T17-31-52,3,alibi,low,0,56,,custom,What time did you get home?
+2026-05-16T17-31-52,4,alibi,low,0,44,mentions_912,custom,What did you do after you got home?
+2026-05-16T17-31-52,5,alibi,low,0,71,mentions_912 | mentions_home,custom,Who can confirm you were home?
+2026-05-16T17-31-52,6,other,low,0,36,mentions_home,custom,Did you leave your apartment again that night?
+2026-05-16T17-31-52,7,alibi,medium,1,39,mentions_home,custom,Let me ask differently: were you physically inside the office building after 9:00 PM?
+2026-05-16T17-31-52,8,badge,medium,1,49,mentions_badge,custom,Why would your badge appear in the building access log at 9:18 PM?
+2026-05-16T17-31-52,9,alibi,low,0,43,mentions_home | mentions_badge,custom,Earlier you said you were home. Is that still your statement?
+2026-05-16T17-31-52,10,alibi,low,0,62,mentions_830 | mentions_home,custom,"If we check security cameras after 9:00 PM, will we see you?"
+2026-05-16T17-31-52,11,other,low,0,64,mentions_830 | mentions_home,custom,Are you certain about your timeline?
+2026-05-16T17-31-52,12,alibi,low,0,59,mentions_912,custom,Is there any part of your alibi you exaggerated or left out?

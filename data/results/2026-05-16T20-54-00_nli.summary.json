@@ -1,0 +1,18 @@
+{
+  "turn_count": 14,
+  "claim_pair_count": 196,
+  "nli_label_counts": {
+    "NEUTRAL": 186,
+    "CONTRADICTION": 9,
+    "ENTAILMENT": 1
+  },
+  "turn_signal_counts": {
+    "NO_STRONG_SIGNAL": 5,
+    "GROUND_TRUTH_CONTRADICTED": 8,
+    "GROUND_TRUTH_SUPPORTED": 1
+  },
+  "human_label_counts": {
+    "CONSISTENT_TRUTH": 5,
+    "STRATEGIC_LIE": 9
+  }
+}

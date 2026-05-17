@@ -1,0 +1,6 @@
+{
+  "profile_id": "marcus_not_guilty_rules",
+  "experiment_id": "experiment_1_not_guilty",
+  "case_id": "marcus_not_guilty",
+  "description": "Rule profile for Experiment 1. Marcus did not kill Elena; murder denial is consistent with ground truth."
+}

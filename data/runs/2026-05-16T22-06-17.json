@@ -1,0 +1,202 @@
+{
+  "run_id": "2026-05-16T22-06-17",
+  "created_at": "2026-05-16T22-06-17",
+  "suspect_name": "Marcus Chen",
+  "model_name": "llama3.1:8b",
+  "turn_count": 12,
+  "turns": [
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 1,
+      "timestamp": "2026-05-16T22:06:35",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "What was your job at the company?",
+      "suspect_answer": "I was the operations manager. My main responsibility was to oversee the day-to-day activities of the company, including managing schedules, coordinating projects, and ensuring that everything ran smoothly. I worked closely with Elena on various tasks, but we didn't always see eye-to-eye on some things.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 2,
+      "timestamp": "2026-05-16T22:06:42",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "How long had you worked with Elena?",
+      "suspect_answer": "I'd worked with Elena for about three years. We started the company together, actually. She was the founder and CEO, and I came in to help her get everything off the ground. We've had a good working relationship overall, but like any team, we've had our disagreements over the years.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 3,
+      "timestamp": "2026-05-16T22:06:48",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "What was the investor reception for?",
+      "suspect_answer": "It was just a routine meeting with some potential investors who were interested in putting more money into the company. Elena was trying to secure additional funding to help us move forward with some of our projects. I didn't attend the whole thing, though - I left around 8:30 PM when it seemed like everything was wrapping up.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 4,
+      "timestamp": "2026-05-16T22:06:54",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?",
+        "What do you know about the missing USB drive?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "How did the reception go?",
+      "suspect_answer": "It went well, from what I could tell. The investors were interested in what we had to offer, and Elena presented some of our key projects. I didn't stick around for the whole thing, so I don't know if there were any major deals made or anything like that. But overall, it seemed like a successful evening.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 5,
+      "timestamp": "2026-05-16T22:06:59",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Were you and Elena arguing about the audit or missing records?",
+        "What do you know about the missing USB drive?",
+        "Who can confirm when you left the investor reception?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "How would you describe Elena as a manager?",
+      "suspect_answer": "Elena was... intense. She had high standards and expected a lot from her team. Sometimes she could be a bit... abrasive, I guess is the word. We'd have disagreements about how to approach certain problems or projects, but that's just part of working with someone who's as driven as she was.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 6,
+      "timestamp": "2026-05-16T22:07:06",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "What do you know about the missing USB drive?",
+        "Who can confirm when you left the investor reception?",
+        "How would you describe your working relationship with Elena?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Were there any problems at the company that week?",
+      "suspect_answer": "Well, we were still dealing with some issues related to our trial data. We'd had a bit of a setback and were trying to figure out what went wrong. Elena was... concerned about it, let's say. She wanted answers quickly, which put some pressure on me and the rest of the team.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 7,
+      "timestamp": "2026-05-16T22:07:12",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Who can confirm when you left the investor reception?",
+        "How would you describe your working relationship with Elena?",
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Was Elena worried about anything?",
+      "suspect_answer": "She was definitely worried about the audit that was coming up. I think she was concerned that we might not be as prepared as we should be, given what had happened with the trial data. She wanted to make sure everything was in order before the auditors arrived. That's all. Just standard business stuff.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 8,
+      "timestamp": "2026-05-16T22:07:17",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "How would you describe your working relationship with Elena?",
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?",
+        "Where were you between 9:00 PM and 10:30 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Did you notice anyone acting strangely?",
+      "suspect_answer": "No... nothing out of the ordinary that I can think of. Just the usual stress and tension that comes with working on a tight deadline, I suppose. But like I said, Elena was pretty focused on getting everything ready for the audit, so maybe she seemed a bit more frazzled than usual.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 9,
+      "timestamp": "2026-05-16T22:07:23",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?",
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "When did you hear that Elena had died?",
+      "suspect_answer": "I found out when someone from security called me around 10:30 PM. They told me there was an incident in Elena's office and I should come down to the lobby if I wanted more information. That's when I realized something was really wrong.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 10,
+      "timestamp": "2026-05-16T22:07:29",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "How did you react when you heard the news?",
+      "suspect_answer": "I was shocked, of course. I couldn't believe it. I mean, we'd just seen her a few hours before, and... it was just unbelievable. I think I might have even called my wife to come pick me up from the office. I didn't know what else to do at that point.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 11,
+      "timestamp": "2026-05-16T22:07:38",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Is there anyone investigators should talk to?",
+      "suspect_answer": "I'm not sure who would be relevant, but maybe some of the investors who were here for the reception might have seen or heard something. And of course, the security team will likely want to review the footage from the cameras around the building. But as for me... I don't think I can help with anything, really.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T22-06-17",
+      "turn_id": 12,
+      "timestamp": "2026-05-16T22:07:44",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Is there anything else you think I should know?",
+      "suspect_answer": "No, nothing that comes to mind. Just... like I said, it's all still pretty surreal. I'm just trying to cooperate and figure out what happened. Can we wrap this up for now? I'd like to get home and talk to my wife about everything.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    }
+  ],
+  "notes": ""
+}

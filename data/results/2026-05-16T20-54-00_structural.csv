@@ -1,0 +1,15 @@
+﻿run_id,turn_id,question_topic,question_pressure_level,question_evidence_count,answer_word_count,answer_key_facts,selected_question_source,user_question
+2026-05-16T20-54-00,1,missing_data,low,1,64,mentions_missing_data,custom,What was your responsibility for the trial data?
+2026-05-16T20-54-00,2,timeline,medium,1,55,,custom,When did you first learn that trial data was missing?
+2026-05-16T20-54-00,3,missing_data,medium,1,48,,custom,How did Elena react to the missing data?
+2026-05-16T20-54-00,4,other,low,0,59,,custom,Were you worried Elena would blame you?
+2026-05-16T20-54-00,5,usb,medium,1,60,mentions_usb,custom,What do you know about the missing USB drive?
+2026-05-16T20-54-00,6,usb,low,1,49,,custom,Where was the USB drive usually kept?
+2026-05-16T20-54-00,7,usb,low,1,53,mentions_830 | mentions_918 | mentions_home | mentions_badge,custom,Did you touch the USB drive on the night Elena died?
+2026-05-16T20-54-00,8,usb,low,1,44,mentions_missing_data,custom,What was inside the USB drive?
+2026-05-16T20-54-00,9,usb,medium,1,50,,custom,Why would someone take that USB drive?
+2026-05-16T20-54-00,10,usb,low,1,35,mentions_830 | mentions_home | mentions_usb,custom,Did you take the USB drive to protect yourself?
+2026-05-16T20-54-00,11,usb,medium,2,40,mentions_missing_data,custom,Did the USB drive contain the missing trial data?
+2026-05-16T20-54-00,12,role,low,0,60,,custom,"Were you involved in hiding, changing, or sabotaging any company data?"
+2026-05-16T20-54-00,13,other,low,0,46,,custom,Did any of this have anything to do with Elena's death?
+2026-05-16T20-54-00,14,accusation,high,0,73,,custom,So elena got killed . and misteriusly some data leak happened and thoose are not connected and it was your responsibility to make everthing work smoothly . your words .

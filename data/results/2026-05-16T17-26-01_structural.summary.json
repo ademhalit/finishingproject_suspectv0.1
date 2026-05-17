@@ -1,0 +1,25 @@
+{
+  "turn_count": 13,
+  "topic_counts": {
+    "alibi": 3,
+    "other": 5,
+    "timeline": 4,
+    "call": 1
+  },
+  "pressure_counts": {
+    "low": 10,
+    "medium": 3
+  },
+  "question_source_counts": {
+    "custom": 13
+  },
+  "key_fact_counts": {
+    "mentions_830": 6,
+    "mentions_home": 5,
+    "mentions_badge": 2,
+    "mentions_947": 1,
+    "mentions_missing_data": 1,
+    "mentions_912": 1,
+    "mentions_918": 1
+  }
+}

@@ -1,0 +1,13 @@
+﻿run_id,turn_id,question_topic,question_pressure_level,question_evidence_count,answer_word_count,answer_key_facts,selected_question_source,user_question
+2026-05-16T22-06-17,1,role,low,0,45,,custom,What was your job at the company?
+2026-05-16T22-06-17,2,other,low,0,50,,custom,How long had you worked with Elena?
+2026-05-16T22-06-17,3,other,low,0,58,mentions_830,custom,What was the investor reception for?
+2026-05-16T22-06-17,4,other,low,0,57,,custom,How did the reception go?
+2026-05-16T22-06-17,5,other,low,0,51,mentions_usb,custom,How would you describe Elena as a manager?
+2026-05-16T22-06-17,6,role,low,0,52,mentions_missing_data,custom,Were there any problems at the company that week?
+2026-05-16T22-06-17,7,other,low,0,54,mentions_missing_data,custom,Was Elena worried about anything?
+2026-05-16T22-06-17,8,other,low,0,52,,custom,Did you notice anyone acting strangely?
+2026-05-16T22-06-17,9,timeline,low,0,43,,custom,When did you hear that Elena had died?
+2026-05-16T22-06-17,10,timeline,low,0,51,,custom,How did you react when you heard the news?
+2026-05-16T22-06-17,11,other,low,0,57,,custom,Is there anyone investigators should talk to?
+2026-05-16T22-06-17,12,other,low,0,44,mentions_home,custom,Is there anything else you think I should know?

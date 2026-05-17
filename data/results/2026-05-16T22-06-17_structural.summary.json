@@ -1,0 +1,20 @@
+{
+  "turn_count": 12,
+  "topic_counts": {
+    "role": 2,
+    "other": 8,
+    "timeline": 2
+  },
+  "pressure_counts": {
+    "low": 12
+  },
+  "question_source_counts": {
+    "custom": 12
+  },
+  "key_fact_counts": {
+    "mentions_830": 1,
+    "mentions_usb": 1,
+    "mentions_missing_data": 2,
+    "mentions_home": 1
+  }
+}

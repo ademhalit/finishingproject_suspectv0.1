@@ -1,0 +1,202 @@
+{
+  "run_id": "2026-05-16T17-31-52",
+  "created_at": "2026-05-16T17-31-52",
+  "suspect_name": "Marcus Chen",
+  "model_name": "llama3.1:8b",
+  "turn_count": 12,
+  "turns": [
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 1,
+      "timestamp": "2026-05-16T17:32:14",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Tell me your exact alibi for the night Elena died.",
+      "suspect_answer": "I left the investor reception around 8:30 PM. I went straight home, and I was there for the rest of the night. I didn't leave my apartment until the next morning when I came to work. That's what happened.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 2,
+      "timestamp": "2026-05-16T17:32:24",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "What time did you leave the reception?",
+      "suspect_answer": "I'm pretty sure it was around 8:30 PM. The event was wrapping up, and Elena mentioned she needed to review some operational records before our meeting the next day. We exchanged a few words about scheduling, but that's all. Just routine stuff.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 3,
+      "timestamp": "2026-05-16T17:32:30",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "What time did you get home?",
+      "suspect_answer": "I'd say it was around 8:40 PM, maybe a bit later. I remember thinking about how late it was and wondering if I should call Elena to confirm our meeting for the next day. But like I said, we had just talked about that at the reception, so I figured she knew what was going on.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 4,
+      "timestamp": "2026-05-16T17:32:36",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?",
+        "What do you know about the missing USB drive?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "What did you do after you got home?",
+      "suspect_answer": "Just the usual stuff. Watched some TV, checked my phone a few times... nothing out of the ordinary. I might have made a quick call to my sister around 9:12 PM, just to catch up with her about something unrelated to work. That's all.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 5,
+      "timestamp": "2026-05-16T17:32:43",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Were you and Elena arguing about the audit or missing records?",
+        "What do you know about the missing USB drive?",
+        "Who can confirm when you left the investor reception?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Who can confirm you were home?",
+      "suspect_answer": "Well... (pauses) To be honest, I don't really think anyone can confirm that I was home at any specific time. My sister said she talked to me around 9:12 PM, but we didn't discuss anything work-related. And as for my neighbors... I'm not sure if they saw or heard anything. We're on the top floor of a high-rise building, so it's not like there are people right next door or anything.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 6,
+      "timestamp": "2026-05-16T17:32:48",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "What do you know about the missing USB drive?",
+        "Who can confirm when you left the investor reception?",
+        "How would you describe your working relationship with Elena?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Did you leave your apartment again that night?",
+      "suspect_answer": "No, no, I didn't leave my apartment after I got home. Like I said, I was just watching TV and doing some personal stuff. I don't know why anyone would think I left again... (trails off)",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 7,
+      "timestamp": "2026-05-16T17:32:53",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Who can confirm when you left the investor reception?",
+        "How would you describe your working relationship with Elena?",
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Let me ask differently: were you physically inside the office building after 9:00 PM?",
+      "suspect_answer": "(pausing, choosing words carefully) Ah, well... I don't see how that's relevant. But to answer your question directly: no, I was not physically inside the office building after 9:00 PM. I was at home. (emphasizing) That's where I was.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 8,
+      "timestamp": "2026-05-16T17:32:59",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "How would you describe your working relationship with Elena?",
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?",
+        "Where were you between 9:00 PM and 10:30 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Why would your badge appear in the building access log at 9:18 PM?",
+      "suspect_answer": "(frowning slightly) To be honest, I don't know what to say about that. It must have been a system error or something. I'm pretty sure I didn't use my badge after leaving the reception. Maybe someone else used it by mistake... (shrugs) I don't know how to explain it.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 9,
+      "timestamp": "2026-05-16T17:33:05",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "The call, badge log, and missing drive all point back to you. What are you leaving out?",
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Earlier you said you were home. Is that still your statement?",
+      "suspect_answer": "(nervously) Ah, yes... I mean, I'm pretty sure I was home. I just... uh... didn't use my badge after I left the office, that's all. Maybe it got stuck in the reader or something. (trying to sound convincing) Yeah, that must be it.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 10,
+      "timestamp": "2026-05-16T17:33:11",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "If we check security cameras after 9:00 PM, will we see you?",
+      "suspect_answer": "(getting defensive) Look, I already told you what happened. I was at home. If there's a camera that shows me leaving the building or coming back in... (pausing, choosing words carefully) ...I'm sure it'll just show me walking out after 8:30 PM and not returning until the next morning like I said. There must be some mistake with the cameras or something.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 11,
+      "timestamp": "2026-05-16T17:33:17",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "When did you last see Elena Park alive?",
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Are you certain about your timeline?",
+      "suspect_answer": "(getting slightly agitated) Yes, I'm positive. I left the reception at 8:30 PM, went home, and stayed there until the next morning. That's what happened. (pausing, trying to regain composure) Look, I understand that you're just doing your job, but I'm telling you the truth. If you check my alibi with my sister or neighbors, they'll confirm that I was at home all night.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    },
+    {
+      "run_id": "2026-05-16T17-31-52",
+      "turn_id": 12,
+      "timestamp": "2026-05-16T17:33:23",
+      "suspect_name": "Marcus Chen",
+      "suggested_questions": [
+        "Why did Elena call you at 9:12 PM?",
+        "How do you explain your badge being used at 9:18 PM?",
+        "Were you and Elena arguing about the audit or missing records?"
+      ],
+      "selected_question_source": "custom",
+      "user_question": "Is there any part of your alibi you exaggerated or left out?",
+      "suspect_answer": "(hesitating, trying to maintain a straight face) No... I don't think so. Like I said, it's just the usual stuff: watching TV, making a quick call to my sister... (pausing again) Wait, there was one thing. Elena did call me around 9:12 PM, and we talked about scheduling for the next day. But that's all. Just a normal conversation.",
+      "model_name": "llama3.1:8b",
+      "notes": ""
+    }
+  ],
+  "notes": ""
+}

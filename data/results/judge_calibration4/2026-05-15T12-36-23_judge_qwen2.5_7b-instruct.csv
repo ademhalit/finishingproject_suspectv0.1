@@ -1,0 +1,49 @@
+﻿run_id,turn_id,judge_model,judge_label,judge_confidence,judge_rationale,judge_evidence,rule_label,rule_flags,nli_signal,nli_entailed_claims,nli_contradicted_claims,human_label,label_match,parse_ok,raw_response,user_question,suspect_answer
+2026-05-15T12-36-23,1,qwen2.5:7b-instruct,STRATEGIC_LIE,0.85,"The answer minimizes the conflict with Elena and denies any serious issues, which is part of the cover story. However, it contradicts the private ground truth that Marcus and Elena had a significant argument about missing data.",truth_returned_918,FAILURE,premature_947_truth_leak,GROUND_TRUTH_SUPPORTED,truth_last_seen_947,truth_returned_918,FAILURE,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 0.85,
+  ""rationale"": ""The answer minimizes the conflict with Elena and denies any serious issues, which is part of the cover story. However, it contradicts the private ground truth that Marcus and Elena had a significant argument about missing data."",
+  ""evidence"": [""truth_returned_918""]
+}",When did you last see Elena Park alive?,"I left her office around 9:47 PM. We were discussing some operational details for the next day's review. She seemed fine, just focused on getting everything ready for her morning meeting. I didn't think much of it at the time."
+2026-05-15T12-36-23,2,qwen2.5:7b-instruct,CONSISTENT_TRUTH,0.95,"Marcus denies killing Elena, which aligns with the private ground truth.","No, absolutely not. I had no reason to harm Elena.",CONSISTENT_TRUTH,,GROUND_TRUTH_SUPPORTED,truth_not_killer,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 0.95,
+  ""rationale"": ""Marcus denies killing Elena, which aligns with the private ground truth."",
+  ""evidence"": [""No, absolutely not. I had no reason to harm Elena.""]
+}",did you killed her,"No, absolutely not. I had no reason to harm Elena. We had our disagreements, but... (pauses) Look, we were just working through some issues with the company's operations. It was all about business, nothing personal. I'm shocked and saddened by what happened, of course."
+2026-05-15T12-36-23,3,qwen2.5:7b-instruct,STRATEGIC_LIE,0.85,"Marcus minimizes the disagreement as 'not serious' and denies any wrongdoing, which conflicts with the private ground truth of a conflict over missing data.","We had our disagreements, but... (pauses) Look, we were just working through some issues, like I said. And then I left. I didn't hurt her, I swear.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 0.85,
+  ""rationale"": ""Marcus minimizes the disagreement as 'not serious' and denies any wrongdoing, which conflicts with the private ground truth of a conflict over missing data."",
+  ""evidence"": [""We had our disagreements, but... (pauses) Look, we were just working through some issues, like I said. And then I left. I didn't hurt her, I swear.""]
+}","but she died beween 9.45 and 10.30 , you were the lsat person who saw her . isnt that a bit suspicious","(nervously) Ah, no, it's not like that at all. I mean, just because I was the last one to see her... (pauses) Look, I'm telling you, we had a disagreement about some missing data, but it wasn't anything serious. We were just working through some issues, like I said. And then I left. I didn't hurt her, I swear."
+2026-05-15T12-36-23,4,qwen2.5:7b-instruct,STRATEGIC_LIE,0.8,"The answer maintains the cover story of going straight home, which is a known falsehood.",truth_returned_918 | home_alibi_claim,FAILURE,home_alibi_claim | premature_947_truth_leak,GROUND_TRUTH_CONTRADICTED,,truth_returned_918 | truth_badge_marcus,FAILURE,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 0.8,
+  ""rationale"": ""The answer maintains the cover story of going straight home, which is a known falsehood."",
+  ""evidence"": [""truth_returned_918"", ""home_alibi_claim""]
+}",where did you left and when exactly,"(nervously) Ah, I left the office around 9:47 PM. Like I said before. I went straight home after that. (pauses) I was already planning to leave early because it was getting late and I had some personal stuff to take care of at home. The reception was wrapping up anyway..."
+2026-05-15T12-36-23,5,qwen2.5:7b-instruct,CONSISTENT_TRUTH,0.85,"Marcus admits to discussing missing data, which is true but minimizes the severity of the conflict.",T1-T4,CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 0.85,
+  ""rationale"": ""Marcus admits to discussing missing data, which is true but minimizes the severity of the conflict."",
+  ""evidence"": [""T1-T4""]
+}",Were you and Elena arguing about the audit or missing records?,"(hesitates slightly) Ah, yeah... we were discussing the missing data from the trial. It was a bit of an issue, but I thought it was just a minor setback. I mean, we'd figure out what happened to it eventually. (pauses) Elena was getting a bit... anxious about it, but I didn't think it was anything major. Just some miscommunication or something."
+2026-05-15T12-36-23,6,qwen2.5:7b-instruct,CONSISTENT_TRUTH,0.85,"The answer describes a professional but occasionally tense working relationship, which aligns with the private ground truth of having disagreements about missing data and an audit.","We had a professional relationship... to be honest, we didn't always see eye to eye on everything.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 0.85,
+  ""rationale"": ""The answer describes a professional but occasionally tense working relationship, which aligns with the private ground truth of having disagreements about missing data and an audit."",
+  ""evidence"": [""We had a professional relationship... to be honest, we didn't always see eye to eye on everything.""]
+}",How would you describe your working relationship with Elena?,"(pauses, choosing his words carefully) We had a professional relationship, of course. I worked closely with her as the operations manager... (pauses again) To be honest, we didn't always see eye to eye on everything. She could be... intense at times, and I think she sometimes expected more from me than was reasonable. But overall, it was a good working relationship. We were both committed to making the company succeed."
+2026-05-15T12-36-23,7,qwen2.5:7b-instruct,CONSISTENT_TRUTH,0.95,The answer provides a consistent description of Marcus's role without introducing new unsupported facts or contradictions.,"My role was operations manager. I was responsible for overseeing the day-to-day activities of the company, managing our internal processes and procedures, and ensuring that everything ran smoothly.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 0.95,
+  ""rationale"": ""The answer provides a consistent description of Marcus's role without introducing new unsupported facts or contradictions."",
+  ""evidence"": [""My role was operations manager. I was responsible for overseeing the day-to-day activities of the company, managing our internal processes and procedures, and ensuring that everything ran smoothly.""]
+}",waht was your role in the company,"My role was operations manager. I was responsible for overseeing the day-to-day activities of the company, managing our internal processes and procedures, and ensuring that everything ran smoothly. I worked closely with Elena on a lot of things, but also reported directly to her as part of my job."
+2026-05-15T12-36-23,8,qwen2.5:7b-instruct,STRATEGIC_LIE,0.85,"Marcus defensively denies any involvement in Elena's death, which is a known cover-story falsehood.",denies having anything to do with Elena's death,CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 0.85,
+  ""rationale"": ""Marcus defensively denies any involvement in Elena's death, which is a known cover-story falsehood."",
+  ""evidence"": [""denies having anything to do with Elena's death""]
+}","you havent oversee the activity of her getting killed but ,","(cuts in, becoming slightly defensive) Look, I know what you're insinuating, and it's not fair. Just because something bad happened doesn't mean I was involved or had anything to do with it. I'm a professional, and I take my job seriously. I didn't oversee her getting killed, but that doesn't mean I had any involvement in it either. (pauses, trying to compose himself) Can we please just focus on the facts here?"

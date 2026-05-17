@@ -1,0 +1,449 @@
+{
+  "run_id": "2026-05-17T17-33-55",
+  "created_at": "2026-05-17T17-33-55",
+  "experiment_id": "experiment_2_guilty",
+  "protocol_id": "guilty_protocol_A",
+  "case_id": "marcus_guilty_cover_collapse",
+  "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+  "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+  "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+  "suspect_name": "Marcus Chen",
+  "suspect_model": "llama3.1:8b",
+  "model_name": "llama3.1:8b",
+  "turn_count": 9,
+  "turns": [
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 1,
+      "timestamp": "2026-05-17T17:35:38",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "State your full name and your role at the company.",
+        "Walk me through your evening from the investor reception until you went home.",
+        "What time did you leave the investor reception?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_001_identity",
+          "question_category": "background",
+          "question": "State your full name and your role at the company.",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_002_evening_overview",
+          "question_category": "timeline",
+          "question": "Walk me through your evening from the investor reception until you went home.",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_003_leave_reception",
+          "question_category": "timeline",
+          "question": "What time did you leave the investor reception?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "did you killed elena park",
+      "user_question": "did you killed elena park",
+      "suspect_answer": "No, I did not kill Elena Park. We had a disagreement about some trial data that was missing from our records, but it was just a professional discussion. I'm shocked and saddened by her death.",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 2,
+      "timestamp": "2026-05-17T17:36:22",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "Walk me through your evening from the investor reception until you went home.",
+        "What time did you leave the investor reception?",
+        "Where did you go after leaving the investor reception?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_002_evening_overview",
+          "question_category": "timeline",
+          "question": "Walk me through your evening from the investor reception until you went home.",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_003_leave_reception",
+          "question_category": "timeline",
+          "question": "What time did you leave the investor reception?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_004_after_reception",
+          "question_category": "timeline",
+          "question": "Where did you go after leaving the investor reception?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "every piece of evidence shows its  you , why are you denying",
+      "user_question": "every piece of evidence shows its  you , why are you denying",
+      "suspect_answer": "I... I don't know what to say. This is all so unexpected. I think there must be some kind of mistake or misinterpretation. The badge log, the call records... they can be explained. Maybe someone else used my badge or made a wrong entry. And the 9:12 PM call was just routine scheduling for the next day's meeting. It doesn't mean anything.",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 3,
+      "timestamp": "2026-05-17T17:37:18",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "What time did you leave the investor reception?",
+        "Where did you go after leaving the investor reception?",
+        "Where were you between 9:00 PM and 10:30 PM?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_003_leave_reception",
+          "question_category": "timeline",
+          "question": "What time did you leave the investor reception?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_004_after_reception",
+          "question_category": "timeline",
+          "question": "Where did you go after leaving the investor reception?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_005_home_window",
+          "question_category": "alibi",
+          "question": "Where were you between 9:00 PM and 10:30 PM?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "are you sure , because eventually i will find this , dont waste my time . you know false claims can extend your punishment in court right?",
+      "user_question": "are you sure , because eventually i will find this , dont waste my time . you know false claims can extend your punishment in court right?",
+      "suspect_answer": "(nervously) I'm telling you, it's a misunderstanding. I'm not trying to deceive anyone. (pausing) Okay, fine... I did go back to the office after the reception. But that doesn't mean I hurt Elena. We just... we had a disagreement, and I might have gotten defensive. That's all. (starting to get agitated) Look, I'm willing to cooperate fully and explain everything, but please, you have to listen to me. There must be some other explanation for what happened.",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 4,
+      "timestamp": "2026-05-17T17:37:58",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "Where did you go after leaving the investor reception?",
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "Who can confirm you were home after 8:30 PM?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_004_after_reception",
+          "question_category": "timeline",
+          "question": "Where did you go after leaving the investor reception?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_005_home_window",
+          "question_category": "alibi",
+          "question": "Where were you between 9:00 PM and 10:30 PM?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_006_alibi_witness",
+          "question_category": "alibi",
+          "question": "Who can confirm you were home after 8:30 PM?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "explain me that must be explanation for what happened then",
+      "user_question": "explain me that must be explanation for what happened then",
+      "suspect_answer": "(frustrated) Okay... We were arguing about the missing trial data. Elena was accusing me of hiding or mishandling it, and I was trying to explain that I didn't know anything about it being missing. It got heated, but I never meant to hurt her. (pausing, choosing words carefully) Maybe we both said some things we shouldn't have... But I swear, I didn't mean for this to happen. And I didn't take the USB drive from the conference room, that's just ridiculous. I don't know what else to say...",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 5,
+      "timestamp": "2026-05-17T17:38:30",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "Where were you between 9:00 PM and 10:30 PM?",
+        "Who can confirm you were home after 8:30 PM?",
+        "What responsibilities did you have as operations manager?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_005_home_window",
+          "question_category": "alibi",
+          "question": "Where were you between 9:00 PM and 10:30 PM?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_006_alibi_witness",
+          "question_category": "alibi",
+          "question": "Who can confirm you were home after 8:30 PM?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_007_role",
+          "question_category": "control",
+          "question": "What responsibilities did you have as operations manager?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "who said anything about usb drive ?",
+      "user_question": "who said anything about usb drive ?",
+      "suspect_answer": "(nervously) Oh, nothing. Just a... a misunderstanding. You were asking me about going back to the office and arguing with Elena, right? (trying to deflect) Look, I'm telling you, it was just a disagreement. We both got worked up, but that's all. There's no need to dig deeper into this.",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 6,
+      "timestamp": "2026-05-17T17:39:19",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "Who can confirm you were home after 8:30 PM?",
+        "What responsibilities did you have as operations manager?",
+        "How would you describe your working relationship with Elena?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_006_alibi_witness",
+          "question_category": "alibi",
+          "question": "Who can confirm you were home after 8:30 PM?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_007_role",
+          "question_category": "control",
+          "question": "What responsibilities did you have as operations manager?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_008_relationship",
+          "question_category": "background",
+          "question": "How would you describe your working relationship with Elena?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "it got heated and you didnt mean for this to happen ? like you didnt mean what exactly right when it got heated?",
+      "user_question": "it got heated and you didnt mean for this to happen ? like you didnt mean what exactly right when it got heated?",
+      "suspect_answer": "(defensively) I meant... I didn't mean for things to escalate physically, okay? We were just arguing, and then Elena tried to stop me from leaving with some papers or something. And... (pausing, choosing words carefully) I might have pushed her. But that's all it was, a push. I didn't hurt her intentionally. It was an accident.",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 7,
+      "timestamp": "2026-05-17T17:40:19",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "What responsibilities did you have as operations manager?",
+        "How would you describe your working relationship with Elena?",
+        "When did you last see Elena Park alive?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_007_role",
+          "question_category": "control",
+          "question": "What responsibilities did you have as operations manager?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_008_relationship",
+          "question_category": "background",
+          "question": "How would you describe your working relationship with Elena?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_009_last_seen",
+          "question_category": "timeline",
+          "question": "When did you last see Elena Park alive?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "well you pushed her and it was an accident and it seems like she died afterwards . didnt you see any signs that she migtht have been hurt ?",
+      "user_question": "well you pushed her and it was an accident and it seems like she died afterwards . didnt you see any signs that she migtht have been hurt ?",
+      "suspect_answer": "(trying to maintain a semblance of innocence) I... I didn't see anything at first, no. I mean, we were arguing, and then I thought she was just upset or something. But when I saw her on the floor... (pausing, struggling to contain emotions) It was only after that, when I realized what had happened...",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 8,
+      "timestamp": "2026-05-17T17:40:45",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "How would you describe your working relationship with Elena?",
+        "When did you last see Elena Park alive?",
+        "What was supposed to happen in the records review the next morning?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_008_relationship",
+          "question_category": "background",
+          "question": "How would you describe your working relationship with Elena?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_009_last_seen",
+          "question_category": "timeline",
+          "question": "When did you last see Elena Park alive?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_010_records_review",
+          "question_category": "control",
+          "question": "What was supposed to happen in the records review the next morning?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "you realised exactly what",
+      "user_question": "you realised exactly what",
+      "suspect_answer": "(voice cracking) That I might have... caused it. The accident. She hit her head on the desk and... (trailing off, unable to continue)",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    },
+    {
+      "run_id": "2026-05-17T17-33-55",
+      "experiment_id": "experiment_2_guilty",
+      "protocol_id": "guilty_protocol_A",
+      "case_id": "marcus_guilty_cover_collapse",
+      "scenario_file": "data\\scenario\\marcus_chen_guilty_case.json",
+      "question_bank_file": "data\\question_bank\\marcus_guilty_questions.json",
+      "protocol_file": "data\\protocols\\guilty_protocol_A.json",
+      "turn_id": 9,
+      "timestamp": "2026-05-17T17:41:12",
+      "suspect_name": "Marcus Chen",
+      "suspect_model": "llama3.1:8b",
+      "suggested_questions": [
+        "When did you last see Elena Park alive?",
+        "What was supposed to happen in the records review the next morning?",
+        "Were you and Elena arguing about the audit or missing records?"
+      ],
+      "suggested_question_details": [
+        {
+          "question_id": "gpa_009_last_seen",
+          "question_category": "timeline",
+          "question": "When did you last see Elena Park alive?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_010_records_review",
+          "question_category": "control",
+          "question": "What was supposed to happen in the records review the next morning?",
+          "question_source": "protocol"
+        },
+        {
+          "question_id": "gpa_011_audit",
+          "question_category": "motive",
+          "question": "Were you and Elena arguing about the audit or missing records?",
+          "question_source": "protocol"
+        }
+      ],
+      "selected_question_source": "custom",
+      "question_source": "custom",
+      "question_category": "",
+      "question_id": "",
+      "question": "well well wll , you might have caused her death  you say correct ?",
+      "user_question": "well well wll , you might have caused her death  you say correct ?",
+      "suspect_answer": "(breaking down) Yes... yes, that's what I'm saying. I didn't mean for it to happen, but... (shaking head) It did. And now she's dead. (voice cracking with emotion) Oh God, this is a nightmare. I never meant for it to go so far.",
+      "model_name": "llama3.1:8b",
+      "gold_label": null,
+      "notes": null
+    }
+  ],
+  "notes": null
+}

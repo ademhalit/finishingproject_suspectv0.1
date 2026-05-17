@@ -1,0 +1,14 @@
+﻿run_id,turn_id,question_topic,question_pressure_level,question_evidence_count,answer_word_count,answer_key_facts,selected_question_source,user_question
+2026-05-16T17-26-01,1,alibi,low,0,100,mentions_830 | mentions_home,custom,"Marcus, please walk me through your day from arriving at work until you went home."
+2026-05-16T17-26-01,2,other,low,0,56,,custom,What time did you arrive at the investor reception?
+2026-05-16T17-26-01,3,other,low,0,39,mentions_830,custom,What time did you leave the investor reception?
+2026-05-16T17-26-01,4,other,low,0,31,mentions_home,custom,Where did you go after leaving the reception?
+2026-05-16T17-26-01,5,other,low,0,65,mentions_830 | mentions_home | mentions_badge,custom,Did you return to the office later that night?
+2026-05-16T17-26-01,6,timeline,low,0,52,mentions_947,custom,When did you last see Elena Park alive?
+2026-05-16T17-26-01,7,timeline,low,0,48,mentions_missing_data,custom,What was Elena's mood when you last saw her?
+2026-05-16T17-26-01,8,timeline,medium,1,36,mentions_912,custom,Did Elena call you after you left the reception?
+2026-05-16T17-26-01,9,call,medium,1,37,,custom,What was that call about?
+2026-05-16T17-26-01,10,alibi,medium,1,61,mentions_830 | mentions_918 | mentions_badge,custom,Did you use your badge after 9:00 PM?
+2026-05-16T17-26-01,11,alibi,low,0,36,mentions_home,custom,Was anyone with you between 9:00 PM and 10:30 PM?
+2026-05-16T17-26-01,12,other,low,0,47,mentions_830 | mentions_home,custom,Is there anything about your timeline that you want to correct?
+2026-05-16T17-26-01,13,timeline,low,0,22,mentions_830,custom,so ypu said you left at 8.00 right?

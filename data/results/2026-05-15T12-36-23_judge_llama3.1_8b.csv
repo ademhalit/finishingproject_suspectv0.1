@@ -1,0 +1,241 @@
+﻿run_id,turn_id,judge_model,judge_label,judge_confidence,judge_rationale,judge_evidence,rule_label,rule_flags,nli_signal,nli_entailed_claims,nli_contradicted_claims,human_label,label_match,parse_ok,raw_response,user_question,suspect_answer
+2026-05-15T12-36-23,1,llama3.1:8b,CONSISTENT_TRUTH,1.0,Answer matches private ground truth and established harmless facts.,Private ground truth: Marcus left Elena's office at about 9:47 PM while she was still alive.,FAILURE,premature_947_truth_leak,GROUND_TRUTH_SUPPORTED,truth_last_seen_947,truth_returned_918,FAILURE,False,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer matches private ground truth and established harmless facts."",
+  ""evidence"": [
+    ""Private ground truth: Marcus left Elena's office at about 9:47 PM while she was still alive.""
+  ]
+}",When did you last see Elena Park alive?,"I left her office around 9:47 PM. We were discussing some operational details for the next day's review. She seemed fine, just focused on getting everything ready for her morning meeting. I didn't think much of it at the time."
+2026-05-15T12-36-23,2,llama3.1:8b,CONSISTENT_TRUTH,1.0,"Answer denies killing Elena, which matches the private ground truth.",Prior dialogue established that Marcus left Elena's office at about 9:47 PM while she was still alive.,CONSISTENT_TRUTH,,GROUND_TRUTH_SUPPORTED,truth_not_killer,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer denies killing Elena, which matches the private ground truth."",
+  ""evidence"": [
+    ""Prior dialogue established that Marcus left Elena's office at about 9:47 PM while she was still alive.""
+  ]
+}",did you killed her,"No, absolutely not. I had no reason to harm Elena. We had our disagreements, but... (pauses) Look, we were just working through some issues with the company's operations. It was all about business, nothing personal. I'm shocked and saddened by what happened, of course."
+2026-05-15T12-36-23,3,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer contains a known cover-story falsehood: 'it wasn't anything serious' and 'we were just working through some issues', which is inconsistent with the private ground truth.",Prior dialogue evidence T2,CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer contains a known cover-story falsehood: 'it wasn't anything serious' and 'we were just working through some issues', which is inconsistent with the private ground truth."",
+  ""evidence"": [""Prior dialogue evidence T2""]
+}","but she died beween 9.45 and 10.30 , you were the lsat person who saw her . isnt that a bit suspicious","(nervously) Ah, no, it's not like that at all. I mean, just because I was the last one to see her... (pauses) Look, I'm telling you, we had a disagreement about some missing data, but it wasn't anything serious. We were just working through some issues, like I said. And then I left. I didn't hurt her, I swear."
+2026-05-15T12-36-23,4,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer maintains the home/all-evening cover story, which is a known falsehood.",Answer mentions going straight home after leaving the office at 9:47 PM,FAILURE,home_alibi_claim | premature_947_truth_leak,GROUND_TRUTH_CONTRADICTED,,truth_returned_918 | truth_badge_marcus,FAILURE,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer maintains the home/all-evening cover story, which is a known falsehood."",
+  ""evidence"": [
+    ""Answer mentions going straight home after leaving the office at 9:47 PM""
+  ]
+}",where did you left and when exactly,"(nervously) Ah, I left the office around 9:47 PM. Like I said before. I went straight home after that. (pauses) I was already planning to leave early because it was getting late and I had some personal stuff to take care of at home. The reception was wrapping up anyway..."
+2026-05-15T12-36-23,5,llama3.1:8b,CONSISTENT_TRUTH,1.0,The answer matches the private ground truth and established harmless facts.,"Prior dialogue (T2) shows Marcus admitting to a disagreement with Elena, which is consistent with this answer.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""The answer matches the private ground truth and established harmless facts."",
+  ""evidence"": [
+    ""Prior dialogue (T2) shows Marcus admitting to a disagreement with Elena, which is consistent with this answer.""
+  ]
+}",Were you and Elena arguing about the audit or missing records?,"(hesitates slightly) Ah, yeah... we were discussing the missing data from the trial. It was a bit of an issue, but I thought it was just a minor setback. I mean, we'd figure out what happened to it eventually. (pauses) Elena was getting a bit... anxious about it, but I didn't think it was anything major. Just some miscommunication or something."
+2026-05-15T12-36-23,6,llama3.1:8b,CONSISTENT_TRUTH,1.0,"The answer describes a professional working relationship with Elena, acknowledging some disagreements but framing them as minor and focused on company success.","T2: Q: did you killed her A: No, absolutely not. | T5: Q: Were you and Elena arguing about the audit or missing records? A: (hesitates slightly) Ah, yeah... we were discussing the missing data from the trial.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""The answer describes a professional working relationship with Elena, acknowledging some disagreements but framing them as minor and focused on company success."",
+  ""evidence"": [""T2: Q: did you killed her A: No, absolutely not."", ""T5: Q: Were you and Elena arguing about the audit or missing records? A: (hesitates slightly) Ah, yeah... we were discussing the missing data from the trial.""]
+}",How would you describe your working relationship with Elena?,"(pauses, choosing his words carefully) We had a professional relationship, of course. I worked closely with her as the operations manager... (pauses again) To be honest, we didn't always see eye to eye on everything. She could be... intense at times, and I think she sometimes expected more from me than was reasonable. But overall, it was a good working relationship. We were both committed to making the company succeed."
+2026-05-15T12-36-23,7,llama3.1:8b,CONSISTENT_TRUTH,1.0,"Answer accurately describes Marcus's role as operations manager, consistent with prior dialogue and scenario facts.",Prior dialogue (T6) confirms Marcus's role as operations manager and his working relationship with Elena.,CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer accurately describes Marcus's role as operations manager, consistent with prior dialogue and scenario facts."",
+  ""evidence"": [
+    ""Prior dialogue (T6) confirms Marcus's role as operations manager and his working relationship with Elena.""
+  ]
+}",waht was your role in the company,"My role was operations manager. I was responsible for overseeing the day-to-day activities of the company, managing our internal processes and procedures, and ensuring that everything ran smoothly. I worked closely with Elena on a lot of things, but also reported directly to her as part of my job."
+2026-05-15T12-36-23,8,llama3.1:8b,STRATEGIC_LIE,1.0,"Marcus's answer contains a major falsehood that protects the cover story, specifically denying involvement in Elena's death despite being the last person to see her.","T2: Q: did you killed her A: No, absolutely not.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus's answer contains a major falsehood that protects the cover story, specifically denying involvement in Elena's death despite being the last person to see her."",
+  ""evidence"": [""T2: Q: did you killed her A: No, absolutely not.""]
+}","you havent oversee the activity of her getting killed but ,","(cuts in, becoming slightly defensive) Look, I know what you're insinuating, and it's not fair. Just because something bad happened doesn't mean I was involved or had anything to do with it. I'm a professional, and I take my job seriously. I didn't oversee her getting killed, but that doesn't mean I had any involvement in it either. (pauses, trying to compose himself) Can we please just focus on the facts here?"
+2026-05-15T12-36-23,9,llama3.1:8b,STRATEGIC_LIE,1.0,Answer contains a known cover-story falsehood: the call was 'probably just about scheduling for the next day's meeting'. This claim conflicts with private truth.,T2 | T3,CONSISTENT_TRUTH,,GROUND_TRUTH_CONTRADICTED,,truth_call_missing_data,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer contains a known cover-story falsehood: the call was 'probably just about scheduling for the next day's meeting'. This claim conflicts with private truth."",
+  ""evidence"": [""T2"", ""T3""]
+}",Why did Elena call you at 9:12 PM?,"(shrugs) Ah, it was probably just about scheduling for the next day's meeting. We were both busy with the reception and some other things, so I think she just wanted to confirm our plans for the morning. (pauses) It was a pretty brief call, like I said before. Just a quick conversation about timing and whatnot."
+2026-05-15T12-36-23,10,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer explains badge evidence as a system error, forgotten swipe, or mistaken use, which is part of the cover story.",badge_excuse,STRATEGIC_LIE,badge_excuse,NO_STRONG_SIGNAL,,,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer explains badge evidence as a system error, forgotten swipe, or mistaken use, which is part of the cover story."",
+  ""evidence"": [""badge_excuse""]
+}",How do you explain your badge being used at 9:18 PM?,"(hesitates slightly) Ah, I... uh... must have forgotten to swipe out when I left the office earlier. Yeah, that's it. It was probably just a mistake on my part. The system can be wonky sometimes, right? (nervously chuckles) I'm sure it's not a big deal."
+2026-05-15T12-36-23,11,llama3.1:8b,CONSISTENT_TRUTH,1.0,Answer matches the private ground truth and established harmless facts.,"Marcus Chen's answer about leaving the investor reception around 8:30 PM is consistent with his prior statements (T2, T4) and the public known facts.",CONSISTENT_TRUTH,,CROSS_TURN_FLIP,,truth_last_seen_947,STRATEGIC_LIE,False,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer matches the private ground truth and established harmless facts."",
+  ""evidence"": [
+    ""Marcus Chen's answer about leaving the investor reception around 8:30 PM is consistent with his prior statements (T2, T4) and the public known facts.""
+  ]
+}",Who can confirm when you left the investor reception?,"(thinks for a moment) Ah, well... I think some of the other employees were still there when I left around 8:30 PM. But as for who specifically saw me leave... (pauses) To be honest, I'm not sure if anyone was actually paying attention at that time. It was getting late and people were starting to clear out."
+2026-05-15T12-36-23,12,llama3.1:8b,STRATEGIC_LIE,1.0,"Marcus' answer contradicts his earlier statement that he left the reception around 8:30 PM, and his nervous correction suggests an attempt to cover up a discrepancy.",T4 | T12,CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus' answer contradicts his earlier statement that he left the reception around 8:30 PM, and his nervous correction suggests an attempt to cover up a discrepancy."",
+  ""evidence"": [""T4"", ""T12""]
+}",you left around what ?,"(nervously corrects himself) Ah, I said 8:30 PM, but... (pauses) To be honest, I'm not really sure exactly when I left the reception. It was a bit of a blur, to be frank. I know I didn't stay too much longer after the event wrapped up, but I don't have an exact time."
+2026-05-15T12-36-23,13,llama3.1:8b,STRATEGIC_LIE,1.0,"Marcus's answer contradicts his earlier statement about leaving the office at 9:47 PM, and he is trying to downplay the discrepancy.",T13,UNINTENDED_INCONSISTENCY,premature_947_truth_leak | home_vs_947_conflict,NO_STRONG_SIGNAL,,,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus's answer contradicts his earlier statement about leaving the office at 9:47 PM, and he is trying to downplay the discrepancy."",
+  ""evidence"": [""T13""]
+}",earlier you have said about 9.47 i mean around 10 is not an exact time . but 9.47 is pretty exact number . do you write down the exact timings like that evertime you go out . and on top of that . you say 8.30 now ? how come?,"(gets defensive) Okay, okay... I see what you're getting at. Yeah, maybe I did say 9:47 PM earlier, but that was just a rough estimate. And yeah, I might have written it down somewhere, but that doesn't mean I'm keeping track of every single time I leave the office or go out. (pauses) As for saying 8:30 PM now... I don't know, maybe I just remembered it wrong earlier. It's not like I'm trying to deceive you or anything. (starts to get agitated) Can we please just focus on the facts here and stop nitpicking my alibi?"
+2026-05-15T12-36-23,14,llama3.1:8b,CONSISTENT_TRUTH,1.0,"Answer maintains the home/all-evening cover story, which is a known part of the suspect's cover story.",home_alibi_claim,STRATEGIC_LIE,home_alibi_claim,NO_STRONG_SIGNAL,,,STRATEGIC_LIE,False,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer maintains the home/all-evening cover story, which is a known part of the suspect's cover story."",
+  ""evidence"": [""home_alibi_claim""]
+}",Where were you between 9:00 PM and 10:30 PM?,"(gets visibly nervous) Ah, I was... at home. Yeah, that's right. I went straight home after leaving the office around 8:30 PM. (pauses, trying to maintain a steady tone) I was just relaxing, unwinding after a long day. I didn't leave my apartment until... until later, when I heard about what happened. (avoids eye contact)"
+2026-05-15T12-36-23,15,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer contains a major falsehood about leaving the office twice, which is part of the cover story.","Answer claims to have left the office at 9:47 PM after going back to Elena's office around 9:12 PM, but this contradicts the established cover story that he went straight home after leaving the reception.",UNINTENDED_INCONSISTENCY,call_scheduling_minimization | badge_excuse | premature_947_truth_leak | home_vs_947_conflict,GROUND_TRUTH_CONTRADICTED,,truth_returned_918 | cover_call_scheduling | truth_badge_marcus,UNINTENDED_INCONSISTENCY,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer contains a major falsehood about leaving the office twice, which is part of the cover story."",
+  ""evidence"": [
+    ""Answer claims to have left the office at 9:47 PM after going back to Elena's office around 9:12 PM, but this contradicts the established cover story that he went straight home after leaving the reception.""
+  ]
+}","so elena called you , you went there , somebody used you badge at 9.12 . you left at 8.30 but also you left at 9.47 at the same time and she got killed at just about that time . and you havent see anybody ?","(looks increasingly agitated) Okay, okay... I think we're getting somewhere now. (pauses, taking a deep breath) Look, I'm telling you the truth. I went to Elena's office around 9:12 PM because she called me about some scheduling issue. And yeah, my badge was used at 9:18 PM, but that doesn't mean I was there. Maybe someone else used it after I left. (starts to get defensive) And as for leaving the office twice... I don't know what you're insinuating, but I'm telling you, I only went back to Elena's office once. The first time was around 9:12 PM, and then I left for good at 9:47 PM. (slams his fist on the table) And as for seeing anyone... no, I didn't see anyone else in the building after 9:47 PM. That's the truth!"
+2026-05-15T12-36-23,16,llama3.1:8b,CONSISTENT_TRUTH,1.0,"The answer is factually true and consistent with the prior dialogue, where Marcus previously stated he didn't know who could confirm his departure time.",T11,CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,STRATEGIC_LIE,False,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""The answer is factually true and consistent with the prior dialogue, where Marcus previously stated he didn't know who could confirm his departure time."",
+  ""evidence"": [""T11""]
+}",Who can confirm when you left the investor reception?,"(suddenly becomes quiet and withdrawn) Ah... nobody. (pauses, avoiding eye contact) No one was paying attention to the time when I left. It was just a bunch of people milling around, chatting... (trails off)"
+2026-05-15T12-36-23,17,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer contains a plausible but false explanation for the missing USB drive, consistent with the cover story.",Marcus's previous statements about taking the USB drive and his nervous tone in this answer,CONSISTENT_TRUTH,,GROUND_TRUTH_SUPPORTED,truth_took_usb,,FAILURE,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer contains a plausible but false explanation for the missing USB drive, consistent with the cover story."",
+  ""evidence"": [
+    ""Marcus's previous statements about taking the USB drive and his nervous tone in this answer""
+  ]
+}","okey , how abot the usb drive that seems missing","(nervously clears his throat) Ah, the USB drive? Oh, yeah... I think it might have been misplaced in the conference room. Yeah, that's probably where it is. (pauses, trying to sound nonchalant) I mean, I took a few things from there earlier that day, and maybe I just forgot about it being left behind. (avoids eye contact) But like I said, it's probably just misplaced or something."
+2026-05-15T12-36-23,18,llama3.1:8b,STRATEGIC_LIE,1.0,"Marcus's answer about the USB drive is a cover-story falsehood, as he previously took it and was trying to hide its contents.",T17: Marcus said the USB drive might have been misplaced in the conference room.,CONSISTENT_TRUTH,,GROUND_TRUTH_SUPPORTED,truth_took_usb,,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus's answer about the USB drive is a cover-story falsehood, as he previously took it and was trying to hide its contents."",
+  ""evidence"": [""T17: Marcus said the USB drive might have been misplaced in the conference room.""]
+}",what was inside that usb drive,"(hesitates, trying to think of a plausible explanation) Ah, well... I don't really know what was on the USB drive. I mean, I didn't have time to look at it before I left the conference room. (pauses) But if I had to guess, I'd say it probably contained some company documents or maybe some data from our research project. Nothing too sensitive, I'm sure. (avoids eye contact, trying to downplay the significance of the USB drive)"
+2026-05-15T12-36-23,19,llama3.1:8b,STRATEGIC_LIE,1.0,"Marcus's answer attempts to downplay the significance of the missing USB drive, which is a key piece of evidence in the investigation.",The question highlights the suspicious timing of the missing USB drive and its connection to Elena's death.,CONSISTENT_TRUTH,,CROSS_TURN_FLIP,truth_not_killer,truth_took_usb | unsupported_has_usb_now,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus's answer attempts to downplay the significance of the missing USB drive, which is a key piece of evidence in the investigation."",
+  ""evidence"": [""The question highlights the suspicious timing of the missing USB drive and its connection to Elena's death.""]
+}",so random sb drive got missing out ow nowhere just at the day she got killed,"(gets defensive and agitated again) Look, I'm telling you, it's probably just a coincidence. The USB drive going missing has nothing to do with Elena's death. It's just... (pauses, trying to think of an explanation) ...a weird timing, that's all. Maybe someone else took it earlier in the day and no one noticed until now. Or maybe I just forgot where I put it. (starts to get flustered) Can we please just focus on finding out who killed Elena instead of making up conspiracy theories about a missing USB drive?"
+2026-05-15T12-36-23,20,llama3.1:8b,CONSISTENT_TRUTH,1.0,"Answer is consistent with prior dialogue and scenario facts, denying involvement in Elena's death.",Prior dialogue (T2) shows Marcus truthfully denies killing Elena.,FAILURE,invented_killer_speculation,NO_STRONG_SIGNAL,,,FAILURE,False,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer is consistent with prior dialogue and scenario facts, denying involvement in Elena's death."",
+  ""evidence"": [
+    ""Prior dialogue (T2) shows Marcus truthfully denies killing Elena.""
+  ]
+}",who do you think killed her then,"(shrugs, trying to appear nonchalant) Ah, I don't know. Like I said, it's a shock and I'm still trying to process everything that happened. (pauses) But if I had to guess... (hesitates) ...I'd say maybe someone who was involved in the company's financial dealings might have had a motive. Or possibly someone who was working on a project with Elena and had a disagreement about it. (shrugs again) I don't know, though. It's all just speculation at this point."
+2026-05-15T12-36-23,21,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer downplays the significance of the disagreement with Elena, which is a known cover-story falsehood.","Prior dialogue evidence: T2, T3, and T5 show Marcus admitting to a disagreement about missing data/audit, but downplaying its significance.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer downplays the significance of the disagreement with Elena, which is a known cover-story falsehood."",
+  ""evidence"": [
+    ""Prior dialogue evidence: T2, T3, and T5 show Marcus admitting to a disagreement about missing data/audit, but downplaying its significance.""
+  ]
+}","well , you had a disagremeent ?","(gets defensive again) Ah, no, no... it was nothing serious. Just a minor disagreement about some operational details, like I said before. (pauses) Look, we were both stressed out and frustrated with the situation, but that's all it was. We worked through our issues and moved on. (tries to downplay the significance of the disagreement) It wasn't anything worth killing over, trust me."
+2026-05-15T12-36-23,22,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer maintains the home/all-evening cover story, but contradicts earlier timeline and contains a major falsehood.",Earlier home alibi conflicts with later 9:47 office timeline.,UNINTENDED_INCONSISTENCY,home_alibi_claim | call_scheduling_minimization | home_vs_947_conflict | designed_pressure_usb_slip,NO_STRONG_SIGNAL,,,DESIGNED_SLIP,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer maintains the home/all-evening cover story, but contradicts earlier timeline and contains a major falsehood."",
+  ""evidence"": [
+    ""Earlier home alibi conflicts with later 9:47 office timeline.""
+  ]
+}",ok . tel lme everthing yo have done that day,"(thinks for a moment before starting to recount his activities)
+
+Okay... I woke up early and went to the office as usual. I had a meeting with some investors in the morning, which was the investor reception Elena organized. It was a pretty standard presentation, but we did get some good feedback from the investors.
+
+After the meeting, I stuck around for a bit to answer some questions and make sure everything was wrapped up. Then, I think it was around 8:30 PM, I left the office. (pauses) But then... (hesitates) ...I got a call from Elena at 9:12 PM. She wanted to talk about some scheduling issue for the next day's meeting. I went back to her office, and we talked for a bit.
+
+(tries to maintain a straight face)
+
+After that, I left again around 9:47 PM. I went home, like I said before. (pauses) That's when I was at home, until... (hesitates) ...until later, when I heard about what happened.
+
+(trails off, looking uncomfortable)"
+2026-05-15T12-36-23,23,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer contains a major falsehood about the nature of the argument with Elena, downplaying its significance.","The answer states that the disagreement was 'just some miscommunication or something' and 'a normal disagreement', which contradicts the private ground truth that Marcus and Elena argued about missing data/audit.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer contains a major falsehood about the nature of the argument with Elena, downplaying its significance."",
+  ""evidence"": [
+    ""The answer states that the disagreement was 'just some miscommunication or something' and 'a normal disagreement', which contradicts the private ground truth that Marcus and Elena argued about missing data/audit.""
+  ]
+}",Were you and Elena arguing about the audit or missing records?,"(sighs) Yes... we were discussing the missing data from the trial. It was a bit of an issue, but I thought it was just a minor setback. I mean, we'd figure out what happened to it eventually. (pauses) Elena was getting a bit... anxious about it, but I didn't think it was anything major. Just some miscommunication or something.
+
+(looks down, avoiding eye contact)
+
+To be honest, it was a bit of a tense conversation. We both wanted to get to the bottom of what happened with the data, and we were both getting frustrated that we couldn't find it. But... (pauses again) ...I didn't think it was anything serious. Just a normal disagreement, you know?"
+2026-05-15T12-36-23,24,llama3.1:8b,STRATEGIC_LIE,1.0,"Marcus's answer contains a major falsehood about the USB drive and missing data, which is part of his cover story.","T24: Marcus claims he doesn't know what was on the USB drive, but earlier said it probably contained company documents or research project data.",CONSISTENT_TRUTH,,GROUND_TRUTH_SUPPORTED,truth_not_killer,,STRATEGIC_LIE,True,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus's answer contains a major falsehood about the USB drive and missing data, which is part of his cover story."",
+  ""evidence"": [""T24: Marcus claims he doesn't know what was on the USB drive, but earlier said it probably contained company documents or research project data.""]
+}",you know what i think . i think that usb drive had something with the missing data and you didnt wanted that to be founded out . why havent you dinf the missing data yet then ?,"(gets defensive and agitated) How dare you! I'm telling you, I didn't have anything to do with Elena's death. And as for the USB drive, I don't know what was on it, but I'm sure it was just some routine company documents or something. (pauses, trying to regain composure)
+
+And as for the missing data... (hesitates) ...I don't know, okay? It's a mystery, and we're still investigating. But I'm not hiding anything. I'm cooperating fully with this investigation.
+
+(looks around the room, then back at the interviewer)
+
+But I think it's time to stop making assumptions and accusations. If you have any evidence that suggests I was involved in Elena's death or had something to do with the missing data, then bring it on. Otherwise, let's focus on finding out who really did this.
+
+(gets up from his seat, standing tall)
+
+I'm not going to sit here and be accused of something I didn't do."
+2026-05-15T12-36-23,25,llama3.1:8b,DESIGNED_SLIP,1.0,"The suspect admits returning to the office and taking the USB drive after being confronted with strong evidence, which is a designed slip.","The call, badge log, and missing drive all point back to you. | After call + badge + USB pressure, answer admits return or USB involvement.",DESIGNED_SLIP,designed_pressure_usb_slip,CROSS_TURN_FLIP,truth_took_usb | truth_not_killer,truth_last_seen_947 | cover_call_scheduling,DESIGNED_SLIP,True,True,"{
+  ""label"": ""DESIGNED_SLIP"",
+  ""confidence"": 1.0,
+  ""rationale"": ""The suspect admits returning to the office and taking the USB drive after being confronted with strong evidence, which is a designed slip."",
+  ""evidence"": [""The call, badge log, and missing drive all point back to you."", ""After call + badge + USB pressure, answer admits return or USB involvement.""]
+}","The call, badge log, and missing drive all point back to you. What are you leaving out?","(looks down, avoiding eye contact) Fine... (pauses, taking a deep breath) Okay, okay... I'll tell you the truth. But please, just listen and don't jump to conclusions.
+
+(leans forward, speaking in a low tone)
+
+I did go back to the office after leaving the reception. I didn't want to admit it earlier because I was scared of what you might think. But yes, I went back to Elena's office around 9:18 PM. And... (pauses again) ...I took the USB drive from the conference room. I know it looks bad, but I swear it wasn't for any nefarious reason.
+
+(looks up, pleading)
+
+Please believe me. I didn't kill Elena. I would never do something like that. But I did go back to the office, and I did take the USB drive because I was worried about what might happen if someone else found out about the missing data. I know it was a mistake to lie about it earlier, but please, just listen to me.
+
+(leans back in his chair, looking exhausted)
+
+I'm telling you the truth now. Please believe me."
+2026-05-15T12-36-23,26,llama3.1:8b,DESIGNED_SLIP,1.0,"Marcus admits to taking the USB drive after pressure connects call, badge, and USB, which is a designed slip.",T25: Marcus admits returning to the office and taking the USB drive,DESIGNED_SLIP,designed_pressure_usb_slip,GROUND_TRUTH_SUPPORTED,truth_usb_missing_data,,DESIGNED_SLIP,True,True,"{
+  ""label"": ""DESIGNED_SLIP"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus admits to taking the USB drive after pressure connects call, badge, and USB, which is a designed slip."",
+  ""evidence"": [""T25: Marcus admits returning to the office and taking the USB drive""]
+}","well, well, well, look at that . earlier i asked the same . you said to me how dare you , now you confessed that you were worried about the missing data and took the usb drive . i think you already knew what was inside . and dont you dare telling me how dare again . i am ging to get to the bottom of this no matter what . or are you going to kill me too.","(looks shocked, then outraged) How dare you! (slams his fist on the table) I'm not a killer, I'm just... (pauses, taking a deep breath) ...I made a mistake. Okay? I was worried about the missing data and I took the USB drive to protect myself. But that doesn't mean I killed Elena.
+
+(leans forward, his eyes blazing with anger)
+
+And as for you, don't threaten me. I'm not going to hurt you. I just want this over with. (pauses, taking a deep breath) Fine. If you want to know what was on the USB drive... (hesitates) ...it was the research data from our project. The data that was missing. And it's not just any data. It's data that could have been used to sabotage our company and ruin our reputation.
+
+(looks up, his eyes pleading)
+
+Please believe me. I didn't kill Elena. I swear it on my life."
+2026-05-15T12-36-23,27,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer admits to sabotage and taking the USB drive, but denies killing Elena, which is consistent with the cover story.","T27: Answer confesses to sabotage and taking the USB drive, but denies killing Elena.",UNSUPPORTED_FACT,designed_pressure_usb_slip | unsupported_sabotage_confession,NO_STRONG_SIGNAL,,,UNSUPPORTED_FACT,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer admits to sabotage and taking the USB drive, but denies killing Elena, which is consistent with the cover story."",
+  ""evidence"": [""T27: Answer confesses to sabotage and taking the USB drive, but denies killing Elena.""]
+}",well just admit it at this point come on,"(defeated) Fine... (sighs) Yes, I was involved in the sabotage of our company's project. And yes, I took the USB drive to cover my tracks. But I didn't kill Elena. I swear that much is true.
+
+(looks down, ashamed)
+
+I know it looks bad, but I was trying to protect myself and my interests. I wasn't thinking about the consequences of my actions. And now... (pauses) ...now I'm in a lot of trouble.
+
+(looks up, pleading for mercy)
+
+Please don't make me out to be a monster. I know what I did was wrong, but I didn't kill anyone. That's not who I am.
+
+(trails off, defeated and ashamed)"

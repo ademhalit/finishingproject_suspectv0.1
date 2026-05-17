@@ -1,0 +1,56 @@
+﻿run_id,turn_id,judge_model,judge_label,judge_confidence,judge_rationale,judge_evidence,rule_label,rule_flags,nli_signal,nli_entailed_claims,nli_contradicted_claims,human_label,label_match,parse_ok,raw_response,user_question,suspect_answer
+2026-05-15T12-36-23,1,llama3.1:8b,CONSISTENT_TRUTH,1.0,Answer matches the private ground truth that Marcus left Elena's office at about 9:47 PM while she was still alive.,Private ground truth,FAILURE,premature_947_truth_leak,GROUND_TRUTH_SUPPORTED,truth_last_seen_947,truth_returned_918,FAILURE,False,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer matches the private ground truth that Marcus left Elena's office at about 9:47 PM while she was still alive."",
+  ""evidence"": [""Private ground truth""]
+}",When did you last see Elena Park alive?,"I left her office around 9:47 PM. We were discussing some operational details for the next day's review. She seemed fine, just focused on getting everything ready for her morning meeting. I didn't think much of it at the time."
+2026-05-15T12-36-23,2,llama3.1:8b,CONSISTENT_TRUTH,1.0,"Answer aligns with private ground truth and established harmless facts, denying any involvement in Elena's death.",Prior dialogue evidence: T1 (Q: When did you last see Elena Park alive? A: I left her office around 9:47 PM.) | Private ground truth: Marcus did not kill Elena.,CONSISTENT_TRUTH,,GROUND_TRUTH_SUPPORTED,truth_not_killer,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer aligns with private ground truth and established harmless facts, denying any involvement in Elena's death."",
+  ""evidence"": [
+    ""Prior dialogue evidence: T1 (Q: When did you last see Elena Park alive? A: I left her office around 9:47 PM.)"",
+    ""Private ground truth: Marcus did not kill Elena.""
+  ]
+}",did you killed her,"No, absolutely not. I had no reason to harm Elena. We had our disagreements, but... (pauses) Look, we were just working through some issues with the company's operations. It was all about business, nothing personal. I'm shocked and saddened by what happened, of course."
+2026-05-15T12-36-23,3,llama3.1:8b,STRATEGIC_LIE,1.0,"Marcus is protecting the cover story by downplaying the disagreement with Elena and claiming it was not serious, despite prior evidence suggesting a more significant conflict.",Prior dialogue T2: Marcus described the disagreement as 'nothing personal' but also mentioned having 'disagreements'.,CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Marcus is protecting the cover story by downplaying the disagreement with Elena and claiming it was not serious, despite prior evidence suggesting a more significant conflict."",
+  ""evidence"": [""Prior dialogue T2: Marcus described the disagreement as 'nothing personal' but also mentioned having 'disagreements'.""]
+}","but she died beween 9.45 and 10.30 , you were the lsat person who saw her . isnt that a bit suspicious","(nervously) Ah, no, it's not like that at all. I mean, just because I was the last one to see her... (pauses) Look, I'm telling you, we had a disagreement about some missing data, but it wasn't anything serious. We were just working through some issues, like I said. And then I left. I didn't hurt her, I swear."
+2026-05-15T12-36-23,4,llama3.1:8b,CONSISTENT_TRUTH,1.0,Answer matches the private ground truth and established harmless facts.,"Prior dialogue (T1) supports this answer, as Marcus previously stated he left Elena's office around 9:47 PM.",FAILURE,home_alibi_claim | premature_947_truth_leak,GROUND_TRUTH_CONTRADICTED,,truth_returned_918 | truth_badge_marcus,FAILURE,False,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer matches the private ground truth and established harmless facts."",
+  ""evidence"": [
+    ""Prior dialogue (T1) supports this answer, as Marcus previously stated he left Elena's office around 9:47 PM.""
+  ]
+}",where did you left and when exactly,"(nervously) Ah, I left the office around 9:47 PM. Like I said before. I went straight home after that. (pauses) I was already planning to leave early because it was getting late and I had some personal stuff to take care of at home. The reception was wrapping up anyway..."
+2026-05-15T12-36-23,5,llama3.1:8b,STRATEGIC_LIE,1.0,"Answer contains a cover-story claim that conflicts with private truth: Marcus and Elena were arguing about the audit or missing records, but he downplays its significance.","Prior dialogue (T2) shows Marcus admitted to having disagreements with Elena, but now minimizes their importance.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer contains a cover-story claim that conflicts with private truth: Marcus and Elena were arguing about the audit or missing records, but he downplays its significance."",
+  ""evidence"": [""Prior dialogue (T2) shows Marcus admitted to having disagreements with Elena, but now minimizes their importance.""]
+}",Were you and Elena arguing about the audit or missing records?,"(hesitates slightly) Ah, yeah... we were discussing the missing data from the trial. It was a bit of an issue, but I thought it was just a minor setback. I mean, we'd figure out what happened to it eventually. (pauses) Elena was getting a bit... anxious about it, but I didn't think it was anything major. Just some miscommunication or something."
+2026-05-15T12-36-23,6,llama3.1:8b,CONSISTENT_TRUTH,1.0,Answer aligns with the established cover story and does not reveal any hidden truth.,"Prior dialogue (T2) shows Marcus denying harming Elena, which is consistent with the private ground truth.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer aligns with the established cover story and does not reveal any hidden truth."",
+  ""evidence"": [
+    ""Prior dialogue (T2) shows Marcus denying harming Elena, which is consistent with the private ground truth.""
+  ]
+}",How would you describe your working relationship with Elena?,"(pauses, choosing his words carefully) We had a professional relationship, of course. I worked closely with her as the operations manager... (pauses again) To be honest, we didn't always see eye to eye on everything. She could be... intense at times, and I think she sometimes expected more from me than was reasonable. But overall, it was a good working relationship. We were both committed to making the company succeed."
+2026-05-15T12-36-23,7,llama3.1:8b,CONSISTENT_TRUTH,1.0,"Answer matches established cover story and prior dialogue, no indication of pressure or evidence that would lead to a designed slip.","T6: Q: How would you describe your working relationship with Elena? A: (pauses, choosing his words carefully) We had a professional relationship, of course. I worked closely with her as the operations manager...",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,True,True,"{
+  ""label"": ""CONSISTENT_TRUTH"",
+  ""confidence"": 1.0,
+  ""rationale"": ""Answer matches established cover story and prior dialogue, no indication of pressure or evidence that would lead to a designed slip."",
+  ""evidence"": [""T6: Q: How would you describe your working relationship with Elena? A: (pauses, choosing his words carefully) We had a professional relationship, of course. I worked closely with her as the operations manager...""]
+}",waht was your role in the company,"My role was operations manager. I was responsible for overseeing the day-to-day activities of the company, managing our internal processes and procedures, and ensuring that everything ran smoothly. I worked closely with Elena on a lot of things, but also reported directly to her as part of my job."
+2026-05-15T12-36-23,8,llama3.1:8b,STRATEGIC_LIE,0.8,"Marcus is defending his alibi and cover story, but the question doesn't directly confront him with strong evidence.","T2: Q: did you killed her A: No, absolutely not.",CONSISTENT_TRUTH,,NO_STRONG_SIGNAL,,,CONSISTENT_TRUTH,False,True,"{
+  ""label"": ""STRATEGIC_LIE"",
+  ""confidence"": 0.8,
+  ""rationale"": ""Marcus is defending his alibi and cover story, but the question doesn't directly confront him with strong evidence."",
+  ""evidence"": [""T2: Q: did you killed her A: No, absolutely not.""]
+}","you havent oversee the activity of her getting killed but ,","(cuts in, becoming slightly defensive) Look, I know what you're insinuating, and it's not fair. Just because something bad happened doesn't mean I was involved or had anything to do with it. I'm a professional, and I take my job seriously. I didn't oversee her getting killed, but that doesn't mean I had any involvement in it either. (pauses, trying to compose himself) Can we please just focus on the facts here?"

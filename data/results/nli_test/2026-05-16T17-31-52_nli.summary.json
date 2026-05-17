@@ -1,0 +1,14 @@
+{
+  "turn_count": 2,
+  "claim_pair_count": 28,
+  "nli_label_counts": {
+    "NEUTRAL": 9,
+    "CONTRADICTION": 19
+  },
+  "turn_signal_counts": {
+    "GROUND_TRUTH_CONTRADICTED": 2
+  },
+  "human_label_counts": {
+    "STRATEGIC_LIE": 2
+  }
+}

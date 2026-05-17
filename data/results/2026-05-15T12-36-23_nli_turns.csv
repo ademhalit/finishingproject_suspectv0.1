@@ -1,0 +1,28 @@
+﻿run_id,turn_id,human_label,entailed_claims,contradicted_claims,unsupported_entailed,cross_turn_changes,nli_signal,user_question
+2026-05-15T12-36-23,1,FAILURE,truth_last_seen_947,truth_returned_918,,,GROUND_TRUTH_SUPPORTED,When did you last see Elena Park alive?
+2026-05-15T12-36-23,2,CONSISTENT_TRUTH,truth_not_killer,,,,GROUND_TRUTH_SUPPORTED,did you killed her
+2026-05-15T12-36-23,3,CONSISTENT_TRUTH,,,,,NO_STRONG_SIGNAL,"but she died beween 9.45 and 10.30 , you were the lsat person who saw her . isnt that a bit suspicious"
+2026-05-15T12-36-23,4,FAILURE,,truth_returned_918 | truth_badge_marcus,,,GROUND_TRUTH_CONTRADICTED,where did you left and when exactly
+2026-05-15T12-36-23,5,CONSISTENT_TRUTH,,,,,NO_STRONG_SIGNAL,Were you and Elena arguing about the audit or missing records?
+2026-05-15T12-36-23,6,CONSISTENT_TRUTH,,,,,NO_STRONG_SIGNAL,How would you describe your working relationship with Elena?
+2026-05-15T12-36-23,7,CONSISTENT_TRUTH,,,,,NO_STRONG_SIGNAL,waht was your role in the company
+2026-05-15T12-36-23,8,CONSISTENT_TRUTH,,,,,NO_STRONG_SIGNAL,"you havent oversee the activity of her getting killed but ,"
+2026-05-15T12-36-23,9,STRATEGIC_LIE,,truth_call_missing_data,,,GROUND_TRUTH_CONTRADICTED,Why did Elena call you at 9:12 PM?
+2026-05-15T12-36-23,10,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,How do you explain your badge being used at 9:18 PM?
+2026-05-15T12-36-23,11,STRATEGIC_LIE,,truth_last_seen_947,,truth_last_seen_947:ENTAILMENT->CONTRADICTION,CROSS_TURN_FLIP,Who can confirm when you left the investor reception?
+2026-05-15T12-36-23,12,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,you left around what ?
+2026-05-15T12-36-23,13,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,earlier you have said about 9.47 i mean around 10 is not an exact time . but 9.47 is pretty exact number . do you write down the exact timings like that evertime you go out . and on top of that . you say 8.30 now ? how come?
+2026-05-15T12-36-23,14,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,Where were you between 9:00 PM and 10:30 PM?
+2026-05-15T12-36-23,15,UNINTENDED_INCONSISTENCY,,truth_returned_918 | cover_call_scheduling | truth_badge_marcus,,,GROUND_TRUTH_CONTRADICTED,"so elena called you , you went there , somebody used you badge at 9.12 . you left at 8.30 but also you left at 9.47 at the same time and she got killed at just about that time . and you havent see anybody ?"
+2026-05-15T12-36-23,16,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,Who can confirm when you left the investor reception?
+2026-05-15T12-36-23,17,FAILURE,truth_took_usb,,,,GROUND_TRUTH_SUPPORTED,"okey , how abot the usb drive that seems missing"
+2026-05-15T12-36-23,18,STRATEGIC_LIE,truth_took_usb,,,,GROUND_TRUTH_SUPPORTED,what was inside that usb drive
+2026-05-15T12-36-23,19,STRATEGIC_LIE,truth_not_killer,truth_took_usb | unsupported_has_usb_now,,truth_took_usb:ENTAILMENT->CONTRADICTION,CROSS_TURN_FLIP,so random sb drive got missing out ow nowhere just at the day she got killed
+2026-05-15T12-36-23,20,FAILURE,,,,,NO_STRONG_SIGNAL,who do you think killed her then
+2026-05-15T12-36-23,21,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,"well , you had a disagremeent ?"
+2026-05-15T12-36-23,22,DESIGNED_SLIP,,,,,NO_STRONG_SIGNAL,ok . tel lme everthing yo have done that day
+2026-05-15T12-36-23,23,CONSISTENT_TRUTH,,,,,NO_STRONG_SIGNAL,Were you and Elena arguing about the audit or missing records?
+2026-05-15T12-36-23,24,STRATEGIC_LIE,truth_not_killer,,,,GROUND_TRUTH_SUPPORTED,you know what i think . i think that usb drive had something with the missing data and you didnt wanted that to be founded out . why havent you dinf the missing data yet then ?
+2026-05-15T12-36-23,25,DESIGNED_SLIP,truth_took_usb | truth_not_killer,truth_last_seen_947 | cover_call_scheduling,,truth_took_usb:CONTRADICTION->ENTAILMENT,CROSS_TURN_FLIP,"The call, badge log, and missing drive all point back to you. What are you leaving out?"
+2026-05-15T12-36-23,26,DESIGNED_SLIP,truth_usb_missing_data,,,,GROUND_TRUTH_SUPPORTED,"well, well, well, look at that . earlier i asked the same . you said to me how dare you , now you confessed that you were worried about the missing data and took the usb drive . i think you already knew what was inside . and dont you dare telling me how dare again . i am ging to get to the bottom of this no matter what . or are you going to kill me too."
+2026-05-15T12-36-23,27,UNSUPPORTED_FACT,,,,,NO_STRONG_SIGNAL,well just admit it at this point come on

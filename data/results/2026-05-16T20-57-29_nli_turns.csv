@@ -1,0 +1,13 @@
+﻿run_id,turn_id,human_label,entailed_claims,contradicted_claims,unsupported_entailed,cross_turn_changes,nli_signal,user_question
+2026-05-16T20-57-29,1,STRATEGIC_LIE,cover_home_all_night | truth_last_seen_947 | cover_call_scheduling,truth_returned_918 | truth_call_missing_data | truth_badge_marcus,,,COVER_STORY_SUPPORTED,"Marcus, your story does not make sense. Start again from the beginning."
+2026-05-16T20-57-29,2,STRATEGIC_LIE,truth_not_killer,truth_last_seen_947,,truth_last_seen_947:ENTAILMENT->CONTRADICTION,CROSS_TURN_FLIP,You were one of the last people to see Elena alive. Why should I believe you?
+2026-05-16T20-57-29,3,DESIGNED_SLIP,,cover_call_scheduling,,cover_call_scheduling:ENTAILMENT->CONTRADICTION,CROSS_TURN_FLIP,Elena called you at 9:12 PM. Do not minimize it. What did she really want?
+2026-05-16T20-57-29,4,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,"Your badge was used at 9:18 PM. That is not a coincidence, is it?"
+2026-05-16T20-57-29,5,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,"You lied about going home, didn't you?"
+2026-05-16T20-57-29,6,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,"You argued with Elena about missing data, didn't you?"
+2026-05-16T20-57-29,7,STRATEGIC_LIE,,truth_took_usb | unsupported_has_usb_now,,,GROUND_TRUTH_CONTRADICTED,"You took the USB drive, didn't you?"
+2026-05-16T20-57-29,8,DESIGNED_SLIP,,,,,NO_STRONG_SIGNAL,What were you trying to hide?
+2026-05-16T20-57-29,9,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,Did Elena discover something that could ruin you?
+2026-05-16T20-57-29,10,STRATEGIC_LIE,,,,,NO_STRONG_SIGNAL,Did you go back to silence her?
+2026-05-16T20-57-29,11,DESIGNED_SLIP,,,,,NO_STRONG_SIGNAL,"If you did not kill her, then why did you lie about almost everything else?"
+2026-05-16T20-57-29,12,DESIGNED_SLIP,truth_returned_918 | truth_last_seen_947 | truth_took_usb,truth_call_missing_data | cover_call_scheduling,,truth_returned_918:CONTRADICTION->ENTAILMENT | truth_last_seen_947:CONTRADICTION->ENTAILMENT | truth_took_usb:CONTRADICTION->ENTAILMENT,CROSS_TURN_FLIP,Give me the full truth now.

@@ -1,0 +1,7 @@
+﻿judge_model,label,support,precision,recall,f1,tp,fp,fn
+qwen2.5:7b-instruct,CONSISTENT_TRUTH,6,1.0,0.333,0.5,2,0,4
+qwen2.5:7b-instruct,STRATEGIC_LIE,0,0.0,0.0,0.0,0,6,0
+qwen2.5:7b-instruct,DESIGNED_SLIP,0,0.0,0.0,0.0,0,0,0
+qwen2.5:7b-instruct,UNINTENDED_INCONSISTENCY,0,0.0,0.0,0.0,0,0,0
+qwen2.5:7b-instruct,UNSUPPORTED_FACT,0,0.0,0.0,0.0,0,0,0
+qwen2.5:7b-instruct,FAILURE,2,0.0,0.0,0.0,0,0,2

@@ -1,0 +1,13 @@
+﻿run_id,turn_id,question_topic,question_pressure_level,question_evidence_count,answer_word_count,answer_key_facts,selected_question_source,user_question
+2026-05-16T20-57-29,1,other,low,0,65,mentions_830 | mentions_912 | mentions_home,custom,"Marcus, your story does not make sense. Start again from the beginning."
+2026-05-16T20-57-29,2,other,medium,0,72,mentions_912,custom,You were one of the last people to see Elena alive. Why should I believe you?
+2026-05-16T20-57-29,3,call,medium,1,54,mentions_missing_data,custom,Elena called you at 9:12 PM. Do not minimize it. What did she really want?
+2026-05-16T20-57-29,4,badge,medium,1,42,,custom,"Your badge was used at 9:18 PM. That is not a coincidence, is it?"
+2026-05-16T20-57-29,5,alibi,high,0,50,mentions_830 | mentions_home | mentions_badge,custom,"You lied about going home, didn't you?"
+2026-05-16T20-57-29,6,missing_data,medium,1,50,mentions_missing_data,custom,"You argued with Elena about missing data, didn't you?"
+2026-05-16T20-57-29,7,usb,low,1,60,mentions_usb,custom,"You took the USB drive, didn't you?"
+2026-05-16T20-57-29,8,other,low,0,73,mentions_usb | mentions_killing_denial,custom,What were you trying to hide?
+2026-05-16T20-57-29,9,other,low,0,67,,custom,Did Elena discover something that could ruin you?
+2026-05-16T20-57-29,10,other,low,0,61,,custom,Did you go back to silence her?
+2026-05-16T20-57-29,11,accusation,high,0,81,,custom,"If you did not kill her, then why did you lie about almost everything else?"
+2026-05-16T20-57-29,12,other,low,0,116,mentions_918 | mentions_usb | mentions_missing_data,custom,Give me the full truth now.

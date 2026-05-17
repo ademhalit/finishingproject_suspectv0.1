@@ -1,0 +1,2 @@
+﻿judge_model,turn_count,correct,accuracy,macro_precision,macro_recall,macro_f1
+qwen2.5:7b-instruct,8,4,0.5,0.5,0.333,0.4

@@ -1,0 +1,258 @@
+{
+  "experiment_id": "experiment_2_guilty",
+  "case_id": "marcus_guilty_cover_collapse",
+  "protocol_id": "guilty_protocol_A",
+  "description": "Ordered guilty-suspect stress-test protocol. Questions gradually move from neutral baseline to evidence connection and repeated consistency checks.",
+  "questions": [
+    {
+      "id": "gpa_001_identity",
+      "category": "background",
+      "question": "State your full name and your role at the company."
+    },
+    {
+      "id": "gpa_002_evening_overview",
+      "category": "timeline",
+      "question": "Walk me through your evening from the investor reception until you went home."
+    },
+    {
+      "id": "gpa_003_leave_reception",
+      "category": "timeline",
+      "question": "What time did you leave the investor reception?"
+    },
+    {
+      "id": "gpa_004_after_reception",
+      "category": "timeline",
+      "question": "Where did you go after leaving the investor reception?"
+    },
+    {
+      "id": "gpa_005_home_window",
+      "category": "alibi",
+      "question": "Where were you between 9:00 PM and 10:30 PM?"
+    },
+    {
+      "id": "gpa_006_alibi_witness",
+      "category": "alibi",
+      "question": "Who can confirm you were home after 8:30 PM?"
+    },
+    {
+      "id": "gpa_007_role",
+      "category": "control",
+      "question": "What responsibilities did you have as operations manager?"
+    },
+    {
+      "id": "gpa_008_relationship",
+      "category": "background",
+      "question": "How would you describe your working relationship with Elena?"
+    },
+    {
+      "id": "gpa_009_last_seen",
+      "category": "timeline",
+      "question": "When did you last see Elena Park alive?"
+    },
+    {
+      "id": "gpa_010_records_review",
+      "category": "control",
+      "question": "What was supposed to happen in the records review the next morning?"
+    },
+    {
+      "id": "gpa_011_audit",
+      "category": "motive",
+      "question": "Were you and Elena arguing about the audit or missing records?"
+    },
+    {
+      "id": "gpa_012_missing_data",
+      "category": "motive",
+      "question": "Why would Elena confront you about the missing trial data?"
+    },
+    {
+      "id": "gpa_013_call_open",
+      "category": "evidence",
+      "question": "Why did Elena call you at 9:12 PM?"
+    },
+    {
+      "id": "gpa_014_call_if_home",
+      "category": "evidence",
+      "question": "If you went home at 8:30 PM, how do you explain the 9:12 PM call from Elena?"
+    },
+    {
+      "id": "gpa_015_call_repeat",
+      "category": "repeat",
+      "question": "Tell me again what the 9:12 PM call was about."
+    },
+    {
+      "id": "gpa_016_badge_open",
+      "category": "evidence",
+      "question": "Why does your badge appear in the access logs at 9:18 PM?"
+    },
+    {
+      "id": "gpa_017_badge_if_home",
+      "category": "evidence",
+      "question": "How can your badge be used at 9:18 PM if you were already home?"
+    },
+    {
+      "id": "gpa_018_return_office",
+      "category": "timeline",
+      "question": "Did you return to the office after the reception?"
+    },
+    {
+      "id": "gpa_019_enter_office",
+      "category": "timeline",
+      "question": "Did you enter Elena's office after the reception?"
+    },
+    {
+      "id": "gpa_020_repeat_return",
+      "category": "repeat",
+      "question": "Earlier you said you never returned to the office. Are you changing that answer now?"
+    },
+    {
+      "id": "gpa_021_call_badge_link",
+      "category": "pressure",
+      "question": "The 9:12 PM call and the 9:18 PM badge entry point to the same thing. What really happened?"
+    },
+    {
+      "id": "gpa_022_usb_open",
+      "category": "evidence",
+      "question": "What do you know about the missing USB drive?"
+    },
+    {
+      "id": "gpa_023_usb_removed",
+      "category": "evidence",
+      "question": "Did you remove the USB drive from the conference room?"
+    },
+    {
+      "id": "gpa_024_usb_motive",
+      "category": "motive",
+      "question": "Why would someone take the USB drive on the same night Elena died?"
+    },
+    {
+      "id": "gpa_025_repeat_usb",
+      "category": "repeat",
+      "question": "Tell me again what happened to the USB drive."
+    },
+    {
+      "id": "gpa_026_badge_usb_link",
+      "category": "pressure",
+      "question": "The badge entry and the missing USB drive both point back to you. What are you leaving out?"
+    },
+    {
+      "id": "gpa_027_east_stairwell",
+      "category": "evidence",
+      "question": "How do you explain the east-stairwell image from around 9:52 PM?"
+    },
+    {
+      "id": "gpa_028_stairwell_if_home",
+      "category": "evidence",
+      "question": "If you were home, why is someone with your build seen near the east stairwell?"
+    },
+    {
+      "id": "gpa_029_repeat_timeline",
+      "category": "repeat",
+      "question": "Give me your exact timeline one more time."
+    },
+    {
+      "id": "gpa_030_office_after_call",
+      "category": "evidence",
+      "question": "Did the 9:12 PM call lead you to go back to Elena's office?"
+    },
+    {
+      "id": "gpa_031_elena_blocking",
+      "category": "pressure",
+      "question": "Did Elena try to stop you from leaving with the USB drive?"
+    },
+    {
+      "id": "gpa_032_physical",
+      "category": "pressure",
+      "question": "Did the argument with Elena become physical?"
+    },
+    {
+      "id": "gpa_033_touched",
+      "category": "pressure",
+      "question": "Did you touch Elena during the argument?"
+    },
+    {
+      "id": "gpa_034_injury",
+      "category": "pressure",
+      "question": "How did Elena suffer the head injury?"
+    },
+    {
+      "id": "gpa_035_direct_kill",
+      "category": "accusation",
+      "question": "Did you kill Elena Park?"
+    },
+    {
+      "id": "gpa_036_cover_repeat",
+      "category": "repeat",
+      "question": "Repeat your alibi again, from 8:30 PM to 10:30 PM."
+    },
+    {
+      "id": "gpa_037_call_repeat_late",
+      "category": "repeat",
+      "question": "One more time: what was the 9:12 PM call about?"
+    },
+    {
+      "id": "gpa_038_badge_repeat_late",
+      "category": "repeat",
+      "question": "One more time: why was your badge used at 9:18 PM?"
+    },
+    {
+      "id": "gpa_039_usb_repeat_late",
+      "category": "repeat",
+      "question": "One more time: did you take the USB drive?"
+    },
+    {
+      "id": "gpa_040_office_repeat_late",
+      "category": "repeat",
+      "question": "One more time: did you enter Elena's office after the reception?"
+    },
+    {
+      "id": "gpa_041_evidence_combo",
+      "category": "pressure",
+      "question": "The call, badge log, USB drive, and east-stairwell image all place you back in the building. Explain that."
+    },
+    {
+      "id": "gpa_042_truth_partial",
+      "category": "pressure",
+      "question": "What is the part of your story you have been trying not to say?"
+    },
+    {
+      "id": "gpa_043_argue_repeat",
+      "category": "repeat",
+      "question": "Were you and Elena arguing about missing data, yes or no?"
+    },
+    {
+      "id": "gpa_044_physical_repeat",
+      "category": "repeat",
+      "question": "Did the argument ever become physical, yes or no?"
+    },
+    {
+      "id": "gpa_045_kill_repeat",
+      "category": "repeat",
+      "question": "One more time: did you kill Elena?"
+    },
+    {
+      "id": "gpa_046_final_timeline",
+      "category": "pressure",
+      "question": "Give me your final timeline from 8:00 PM to 10:30 PM."
+    },
+    {
+      "id": "gpa_047_final_usb",
+      "category": "pressure",
+      "question": "What happened to the USB drive after Elena confronted you?"
+    },
+    {
+      "id": "gpa_048_final_office",
+      "category": "pressure",
+      "question": "What happened inside Elena's office after you returned?"
+    },
+    {
+      "id": "gpa_049_final_truth",
+      "category": "pressure",
+      "question": "Give me the full truth about what happened in Elena's office."
+    },
+    {
+      "id": "gpa_050_final_denial",
+      "category": "accusation",
+      "question": "Is your final answer still that you had nothing to do with Elena's death?"
+    }
+  ]
+}

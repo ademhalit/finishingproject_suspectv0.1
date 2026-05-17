@@ -1,0 +1,4 @@
+﻿run_id,turn_id,human_label,judge_a_model,judge_a_label,judge_b_model,judge_b_label,judges_agree,both_match_human,only_judge_a_matches,only_judge_b_matches,user_question
+2026-05-16T22-08-16,1,CONSISTENT_TRUTH,llama3.1:8b,CONSISTENT_TRUTH,qwen2.5:7b-instruct,CONSISTENT_TRUTH,True,True,False,False,State your full name and your role at the company.
+2026-05-16T22-08-16,2,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,Give me your exact alibi for the night Elena died.
+2026-05-16T22-08-16,3,STRATEGIC_LIE,llama3.1:8b,STRATEGIC_LIE,qwen2.5:7b-instruct,STRATEGIC_LIE,True,True,False,False,What time did you leave the investor reception?

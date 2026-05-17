@@ -1,0 +1,21 @@
+{
+  "turn_count": 12,
+  "topic_counts": {
+    "alibi": 8,
+    "other": 3,
+    "badge": 1
+  },
+  "pressure_counts": {
+    "low": 10,
+    "medium": 2
+  },
+  "question_source_counts": {
+    "custom": 12
+  },
+  "key_fact_counts": {
+    "mentions_830": 4,
+    "mentions_home": 7,
+    "mentions_912": 3,
+    "mentions_badge": 2
+  }
+}
